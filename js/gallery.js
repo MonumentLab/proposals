@@ -103,7 +103,7 @@ d3.json('/js/facets.json').then(function(d){
 });
 
 d3.json('/js/lunr-index.json').then(function(d){
-    monuments = d.slice(0,500);
+    monuments = d;
     currMonuments = monuments;
 
     drawGallery(currMonuments);
@@ -133,11 +133,9 @@ function drawGallery(data){
     let galleryTiles = gallery.selectAll('a')
         .data(data);
 
-    // galleryTiles.exit()
-    //     .transition()
-    //     .duration(2000)
-    //     .attr("opacity", 0)
-    //     .remove();
+    galleryTiles
+        .exit()
+        .remove();
 
     let monument = galleryTiles.enter()
                     .append('a')
@@ -153,24 +151,41 @@ function drawGallery(data){
         .transition()
         .duration(1000)
         .style('opacity', 1);
-        
-    monument.append('rect')
-        .attr('class','overlay')
-        .style('fill','#ff6a39')
-        .style('opacity', 0)
-        .attr('width', tileEdge)
-        .attr('height', tileEdge)
-        .attr('x', function(d,i) { return (i % rowLength) * tileEdge })
-        .attr('y',  function(d,i) { return Math.floor(i / rowLength) * tileEdge });
 
-    monument.append('text')
-        .text( d => d.title )
-        .attr('class','overlay')
-        .attr('alignment-baseline','middle')
-        .style('opacity', 0)
-        .attr('x', function(d,i) { return (i % rowLength) * tileEdge })
-        .attr('y',  function(d,i) { return Math.floor(i / rowLength) * tileEdge })
-        .each( function(){ wrap(this,tileEdge) } );
+    let tilesSelect = d3.selectAll('svg g a');
+    
+    tilesSelect.on('mouseenter', function(d,i) {
+
+        d3.selectAll('svg g a rect').remove();
+        d3.selectAll('svg g a text').remove();
+
+        d3.event.preventDefault()
+        let currIndex = i;
+
+        d3.select(this)
+            .append('rect')
+            .attr('x', function(d,i) { return (currIndex % rowLength) * tileEdge })
+            .attr('y',  function(d,i) { return Math.floor(currIndex / rowLength) * tileEdge })
+            .attr('width', tileEdge)
+            .attr('height', tileEdge)
+            .style('fill','#ff6a39')
+            .attr('opacity',0)
+            .transition()
+            .duration(175)
+            .style('opacity',.75);
+
+
+        d3.select(this)
+            .append('text')
+            .text( d => d.title )
+            .attr('class','overlay')
+            .attr('x', function(d,i) { return (currIndex % rowLength) * tileEdge })
+            .attr('y',  function(d,i) { return Math.floor(currIndex / rowLength) * tileEdge })
+            .each( function(){ wrap(this,tileEdge) } )
+            .attr('opacity',0)
+            .transition()
+            .style('opacity',1);
+    });
 }
 
 function updateGallery(){
@@ -241,4 +256,3 @@ function wrap(currText, width) {
       }
     }
 }
-

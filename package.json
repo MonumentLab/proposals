@@ -10,7 +10,7 @@
     },
     "scripts": {
         "uglify": "uglifyjs js/*.js  -c -m -o _site/js/wax.js",
-        "babel": "npx babel js/*.js --presets=env --out-dir _site",
+        "babel": "npx babel js/*.js --presets=env,minify --out-dir _site",
         "copy": "cp js/*.json _site/js/",
         "sass": "node-sass assets/wax.scss --include-path _sass _site/assets/wax.css",
         "watch:js": "onchange \"js/*.js\" -- npm run babel",
