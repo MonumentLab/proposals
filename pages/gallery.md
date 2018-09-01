@@ -1,7 +1,13 @@
 ---
-layout: gallery-page
+layout: gallery-page-multi-facet
 title: Gallery
+class: gallery
 permalink: /gallery/
-collection: qatar
-facet_by: object_type
+collection: monuments
+facet_by:
+    - age_range
+    - neighborhood
+    - topic
+    - keywords_other
+    - type
 ---

@@ -1,23 +1,60 @@
 # main settings
-title:            Minicomp/Wax
-description:      a jekyll theme for minimal exhibitions
+title:            "Monument Lab 2017 Research"
+description:      Citizen monuments proposed by Philadelphians
 url:              ''
-baseurl:          '/wax'
+baseurl:          ''
 
 # build settings
 permalink:        pretty
-exclude:          [Gemfile*, Rakefile, node_modules, vendor, spec, README.md]
+exclude:          [Gemfile*,
+                   Rakefile,
+                   node_modules,
+                   vendor,
+                   spec,
+                   README.md,
+                   assets/extra-files,
+                   assets/stamen-tiles,
+                   assets/monuments,
+                   dev,
+                   iiif,
+                   collections]
+keep_files:       [ assets/monuments ]
+
 collections_dir:  collections
+
+# monument lab child theme settings
+ml:
+  endpoint: /assets/monuments/
+  display_fields:
+    pid: "ID"
+    title: "Title"
+    location_transcription: "Location"
+    image_file_name: "Image File Name"
+    proposal_transcription: "Transcription"
+    topic: "Topics"
+    topic_summary: "Topic Summary"
+    type: "Monument Type"
+    keywords_other: "Other Keywords"
+    credit: "Credit"
+    image_labels: "Image Labels"
+    zipcode: "Contributor's Zipcode"
+    neighborhood: "Contributor's Neighborhood"
+    age: "Contributor's Age"
+    age_range: "Contributor's Age Range"
+    instagram: "Contributor's Instagram"
+    twitter: "Contributor's Twitter"
+    facebook: "Contributor's Facebook"
 
 # wax collection settings
 collections:
-  qatar:
+  monuments:
     output: true
-    source: qatar.csv
-    layout: iiif-item-page
+    source: monuments.csv
+    layout: item-page
     lunr_index:
       content: false
-      fields: [pid, title, artist, location, _date, object_type, current_location]
+      # fields: [pid,resource_id,title,location_transcription,zipcode,age,age_range,instagram,image_file_name,proposal_transcription,topic,topic_summary,type,keywords_ther,credit,image_labels,twitter,facebook,curate,county]
+      fields: [pid,title,location_transcription,zipcode,neighborhood,age,age_range,instagram,image_file_name,proposal_transcription,topic,topic_summary,type,keywords_other,credit,image_labels,twitter,facebook]
     iiif:
       label: title
 
@@ -25,18 +62,16 @@ collections:
 menu:
   - label: About
     sub:
-    - label: Wax
+    - label: About
       link: /about/
-    - label: Minicomp
-      link: /minicomp/
     - label: Credits
       link: /credits/
-  - label: Documentation
-    link: https://minicomp.github.io/wiki/#/wax/
-  - label: Exhibits
-    link: /exhibits/
   - label: Gallery
     link: /gallery/
+  - label: Map
+    link: /map/
+  - label: Search
+    link: /search/
 
 # search tests
 quoll:

@@ -3,3 +3,15 @@ wax_tasks
 .sass-cache
 .jekyll-metadata
 .DS_Store
+assets/extra-files
+assets/monuments
+assets/stamen-tiles
+vendor
+node_modules
+ml-geo-cleaned.json
+ml-geo.json
+pu.json
+.jekyll-metadata
+.bundle
+dev
+build

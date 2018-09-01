@@ -1,12 +1,27 @@
 {
-    "name": "Minicomp/Wax",
+    "name": "Wax",
     "version": "1.0.0",
     "description": "a jekyll theme for minimal exhibitions",
     "dependencies": {
-        "jquery": "^3.2.1",
-        "popper": "^1.12.9",
         "bootstrap": "^4.0.0",
+        "jquery": "^3.2.1",
         "leaflet": "^1.3.1",
         "leaflet-iiif": "^2.0.1"
+    },
+    "scripts": {
+        "uglify": "uglifyjs js/*.js  -c -m -o _site/js/wax.js",
+        "babel": "npx babel js/*.js --presets=env --out-dir _site",
+        "copy": "cp js/*.json _site/js/",
+        "sass": "node-sass assets/wax.scss --include-path _sass _site/assets/wax.css",
+        "watch:js": "onchange \"js/*.js\" -- npm run babel",
+        "watch:css": "onchange \"_sass/*.scss\" \"_layouts/*\" \"pages/*\" -- bundle exec jekyll build --incremental",
+        "watch": "npm run watch:css | npm run watch:js"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-minify": "^0.4.3",
+        "babel-preset-env": "^1.7.0",
+        "node-sass": "^4.9.3",
+        "onchange": "^4.1.0"
     }
 }
