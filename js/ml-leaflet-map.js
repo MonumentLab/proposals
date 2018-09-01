@@ -191,7 +191,7 @@ function updateMap() {
             if (currFilter[facet].length) {
 
                 currMonuments.features = currMonuments.features.filter( d => 
-                     currFilter[facet].toLowerCase().indexOf(
+                     currFilter[facet].toLowerCase().replace(/ /g,'').indexOf(
                             d.properties[facet].toLowerCase().replace(/ /g,'')
                         ) > -1 && d.properties[facet].length
                 );
