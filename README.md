@@ -1,8 +1,8 @@
 ### Monument Lab 2017 Research Theme
 
-![monument lab logo](Minicomp/Wax](https://github.com/bulbil/monumentlab/raw/master/assets/ml-logo.png)
+![monument lab logo](https://github.com/bulbil/monumentlab/raw/master/assets/ml-logo.png)
 
-A Jekyll theme based on the (amazing) static collections project [Minicomp/Wax](https://github.com/minicomp/wax/)].
+A Jekyll theme based on the (amazing) static collections project [Minicomp/Wax](https://github.com/minicomp/wax/).
 
 Building off theme, this fork does not serve IIIF resources and is "optimized" (used very loosely) for very large collections that include spatial metadata:
 
