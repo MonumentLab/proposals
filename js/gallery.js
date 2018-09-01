@@ -139,7 +139,7 @@ function drawGallery(data){
 
     let monument = galleryTiles.enter()
                     .append('a')
-                    .attr('xlink:href', d => '/monuments/' + d.pid);
+                    .attr('xlink:href', d => '/monuments/' + d.pid.toLowerCase());
 
     monument.append('image')
         .style('opacity',0)

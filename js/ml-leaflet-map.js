@@ -227,7 +227,7 @@ function updateMap() {
 // ------------------------------POP-UPS-------------------------------------
 function onEachFeature(feature, layer) {
 
-    var html = "<a href='/monuments/" + feature.properties.researchID.toUpperCase() +
+    var html = "<a href='/monuments/" + feature.properties.researchID.toLowerCase() +
         "'><img src='/assets/monuments/thumbs/" + feature.properties.researchID.toUpperCase().replace(/([A-Z]+)/g,'$1_') + ".jpg'></a>";
     var agePopup = "", zipcodePopup = "", socialMediaPopup = "";
     if (feature.properties && feature.properties.name && feature.properties.ref) {
