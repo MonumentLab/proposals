@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+{%- assign the_collection = site.data[page.collection] -%}
+
+<div id="wax-gallery">
+    <div id="gallery"></div>
+
+
+    {% comment %}
+    {% for item in the_collection %}
+
+    {% capture facet_values %}{% for facet in page.facet_by %}{{ item[facet] | replace: ' ','' }} {% endfor %}{% endcapture %}
+
+        <div class='gallery-item {{ facet_values }}'>
+            <a href='{{ site.baseurl }}/{{ page.collection }}/{{ item.pid }}/'>
+                <div class='hovereffect'>
+                    <img class='img-responsive gallery-thumb' src="{{ site.ml.endpoint }}thumbs/{{ item.image_file_name }}">
+                    <div class='overlay'><p class='info'>{{ item.title }}</p></div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+    {% endcomment %}
+
+
+    <div id="facets" class="col-3">
+      <div id="hide-control" class="float-right"><i class="fas fa-arrow-circle-left"></i></div>
+      <div id="count"><label for=""><span></span>&nbsp;proposals selected</label></div>
+      <hr/>
+
+      {% for facet in page.facet_by %}
+
+      <label for="{{ facet }}">{{ site.ml.display_fields[facet] }}</label>
+      <div class="input-group button-group mb-3" data-filter-group="{{ facet }}">
+        <select id="{{ facet }}" class="custom-select">
+          <option value="*"></option>
+        </select>
+      </div>
+
+      {% comment %}
+      <div id="{{ facet }}" class="button-group" data-filter-group="{{ facet }}">
+        <span class="facet-label">{{ facet }}</span>
+      </div>
+      {% endcomment %}
+
+      {% endfor %}
+    </div>
+</div>
+</div>

@@ -1,0 +1,24 @@
+---
+pid: LLG60
+title: Blinded by Democracy
+location_transcription: Center City I guess
+zipcode: '19038'
+outside_phl: 'Glenside PA '
+neighborhood: Glenside
+age: '16'
+age_range: 13-19
+instagram: 
+image_file_name: LLG_60.jpg
+proposal_transcription: A soldier with a liberty bell on their head, covering their
+  eyes. The soldier should appear angry and upset, but no reason is given in the monument.
+topic: Armed Forces,Politics,Violence,Freedom
+topic_summary: 0, 0, 0, 0
+type: Sculpture Statue
+keywords_other: soldier, liberty bell, democracy, blind
+credit: Matthew Flynn
+image_labels: 
+twitter: 
+facebook: 
+permalink: "/monuments/llg60/"
+layout: item-page
+---

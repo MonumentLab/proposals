@@ -1,0 +1,23 @@
+---
+pid: LLG70
+title: Suck it! New York
+location_transcription: An Island
+zipcode: '19109'
+outside_phl: 'Philadelphia PA '
+neighborhood: Center City
+age: '15'
+age_range: 13-19
+instagram: 
+image_file_name: LLG_70.jpg
+proposal_transcription: It's the statue of liberty, but bigger
+topic: Art,Culture,Philadelphia
+topic_summary: 0, 0, 0
+type: Sculpture Statue
+keywords_other: New York, rivalry, statue of liberty, liberty
+credit: Lucas
+image_labels: 
+twitter: 
+facebook: 
+permalink: "/monuments/llg70/"
+layout: item-page
+---

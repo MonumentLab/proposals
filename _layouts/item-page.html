@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="monument-image">
+    <img src="{{ site.ml.endpoint }}full/{{ page.image_file_name }}" alt="">
+</div>
+
+<center>
+
+
+  <div id="metadata-block">
+
+    <table class="table table-striped">
+
+        {% for field in site.ml.display_fields %}
+        {% assign field_key = field[0] %}
+        
+        {% if page[field_key] %}
+
+        {% if 'topics,keywords_other,neighborhood' contains field_key %}
+        {% assign field_value = page[field_key] | replace: ',', ', ' | capitalize %}
+        {% else %}
+        {% assign field_value = page[field_key] %}
+        {% endif %}
+
+        <tr class="meta">
+            <td class="label">{{ field[1] }}: </td>
+            <td class="value">{{ page[field_key] }}</td>
+        </tr>
+        {% endif %}
+
+        {% endfor %}
+    </table>
+  </div>
+</center>
