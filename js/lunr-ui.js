@@ -66,7 +66,7 @@ if (item.topic){ meta += item.location + ', ';}
 if (item.keywords_other){ meta += item._date + '. ';}
 if (item['type']){ meta += item['type'] + '. ';}
 
-var result = '<div class="result"><a href="/monuments/' + item.pid + '"><img class="sq-thumb-sm" src="/assets/monuments/thumbs/' + item.image_file_name.toUpperCase().replace('JPG','jpg') + '"/>&nbsp;&nbsp;&nbsp;<p><span class="title">' + title + '.</span><br>' + meta + '</p></a></div>';
+var result = '<div class="result"><a href="/monuments/' + item.pid.toLowerCase() + '"><img class="sq-thumb-sm" src="/assets/monuments/thumbs/' + item.image_file_name.toUpperCase().replace('JPG','jpg') + '"/>&nbsp;&nbsp;&nbsp;<p><span class="title">' + title + '.</span><br>' + meta + '</p></a></div>';
 results_div.append(result);
 }
 });
