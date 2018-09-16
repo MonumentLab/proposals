@@ -23,7 +23,17 @@ body { height: unset; }
 
 #facets {
 
+    position: fixed;
+    top: $super-margin;
+    bottom: 0;
+    left: 0;
+    height: 100%;
     padding-top: 1rem;
+    background-color: #fff;
+    opacity: .9;
+    transition: .3s ease;
+    z-index: 1;
+
     button {
         font-size: 1rem;
     }
@@ -74,8 +84,6 @@ span.logo.baseline {
     margin-left: 0;
     margin-right: 0;
     max-width: unset;
-    // max-height: calc(3 * 100vh);
-    // overflow-y: hidden;
 }
 
 #main.home .textbox {
@@ -125,16 +133,7 @@ span.logo.baseline {
 
 .gallery #wax-gallery {
 
-    #facets {
-        position: fixed;
-        top: $super-margin;
-        bottom: 0;
-        left: 0;
-        transition: .3s ease;
-        background-color: #fff;
-        opacity: .8;
-        max-height: 75%;
-    }
+
     
     #facets.hide { 
 
@@ -200,16 +199,6 @@ span.logo.baseline {
 }
 
 .map #map-container #facets {
-
-    position: fixed;
-    top: $super-margin;
-    bottom: 0;
-    left: 0;
-    transition: .3s ease;
-    background-color: #fff;
-    opacity: .8;
-    max-height: 75%;
-    z-index: 1;
 
     &.hide { 
         transition: .3s ease;

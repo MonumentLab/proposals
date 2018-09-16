@@ -17,14 +17,16 @@ d3.select('#facets > #hide-control > i').on('click', function(e){
 // prototype d3 gallery to improve performance
 
 const width = $('#main.container').width(),
-    height = window.innerHeight - 150,
-    rowLength = 15,
-    tileEdge = width/rowLength;
+    height = window.innerHeight,
+    rowWidth = width > 1200 ? 1200 : width;
 
 const svg = d3.select('#gallery').append('svg')
             .attr('width', width )
             .attr('height', height ),
-        gallery = svg.append('g');
+        gallery = svg.append('g').attr('transform','translate(100)');
+
+var rowLength = 12,
+    tileEdge = rowWidth/rowLength;
 
 let monuments = [],
     currMonuments = [],
@@ -120,13 +122,17 @@ function zoomed() {
     // dynamic resizing of translate extent, limiting the extent of y transform
     let currLimit = .9 * t.k * tileEdge * (currMonuments.length / rowLength);
     if(t.y < -currLimit){
-        t.y = -currLimit
+        t.y = -currLimit/2
     }
-
     gallery.attr("transform", t);
 }
 
 function drawGallery(data){
+
+    if (data.length < 6) { rowLength = 3; }
+    else if (data.length < 24 ) { rowLength = 6; }
+    else { rowLength = 12; }
+    tileEdge = rowWidth/rowLength;
 
     d3.selectAll('svg a').remove();
 
@@ -216,7 +222,10 @@ function updateGallery(){
     console.log(currMonuments.length)
 
     // reset zoom/translate on refilter
-    svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity);
+    let currXTranslate = (width - tileEdge * rowLength) / 2,
+        currYTranslate = tileEdge > 50 ? 50 : tileEdge;
+
+    svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate(currXTranslate,currYTranslate));
     drawGallery(currMonuments);
     d3.select('#facets #count label span')
         .html(currMonuments.length)
@@ -224,6 +233,7 @@ function updateGallery(){
         .transition()
         .duration(750)
         .style('opacity', 1);
+
 }
 
 function wrap(currText, width) {
