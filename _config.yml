@@ -66,6 +66,8 @@ menu:
       link: /about/
     - label: Credits
       link: /credits/
+    - label: Main Project Site
+      link: "http://monumentlab.com"
   - label: Gallery
     link: /gallery/
   - label: Map

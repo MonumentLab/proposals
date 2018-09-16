@@ -12,10 +12,10 @@
         "uglify": "uglifyjs js/*.js  -c -m -o _site/js/wax.js",
         "babel": "npx babel js/*.js --presets=env,minify --out-dir _site",
         "copy": "cp js/*.json _site/js/",
-        "sass": "node-sass assets/wax.scss --include-path _sass _site/assets/wax.css",
+        "sass": "node-sass assets/wax.scss --include-path _sass -o _site/assets",
         "watch:js": "onchange \"js/*.js\" -- npm run babel",
-        "watch:css": "onchange \"_sass/*.scss\" \"_layouts/*\" \"pages/*\" -- bundle exec jekyll build --incremental",
-        "watch": "npm run watch:css | npm run watch:js"
+        "watch:css": "onchange \"_sass/*.scss\" \"assets/*.scss\" -- npm run sass",
+        "watch": "npm run watch:css & npm run watch:js"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",

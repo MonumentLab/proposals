@@ -39,7 +39,7 @@ body { height: unset; }
     }
 
     #title p {
-
+        font-family: $serif;
         text-align:right; 
         padding-right: 1rem; 
         line-height: .9rem; 
@@ -59,6 +59,7 @@ span.logo.baseline {
 .nav a.nav-link,
 .nav a.dropdown-item {
     text-transform: uppercase;
+    font-family: $sans-serif;
 }
 
 #header-spacer {
@@ -73,14 +74,14 @@ span.logo.baseline {
     margin-left: 0;
     margin-right: 0;
     max-width: unset;
-    max-height: calc(3 * 100vh);
-    overflow-y: hidden;
+    // max-height: calc(3 * 100vh);
+    // overflow-y: hidden;
 }
 
 #main.home .textbox {
 
     position: fixed;
-    top: 1.2 * $super-margin;
+    top: 1.5 * $super-margin;
     z-index: 9;
     left: 50%;
     width: 75%;
@@ -89,6 +90,7 @@ span.logo.baseline {
     -webkit-transform: translate(-50%, 0);
     background-color: rgba(#666, .9);
     text-align: center;
+    padding: 1.5rem 0;
 
     p {
         opacity: 1;
@@ -116,8 +118,9 @@ span.logo.baseline {
     margin-left: 0;
     margin-right: 0;
     max-width: unset;
-    height: 100vh;
-    overflow-y: hidden;
+    // height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .gallery #wax-gallery {

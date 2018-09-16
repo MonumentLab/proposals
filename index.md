@@ -21,41 +21,28 @@ The public proposals collected at the labs represent an astonishing range and de
   var container= $('#wax-gallery');
   container.prepend("<div id='gallery'></div>");
   var gallery = $('#gallery');
-  {% for item in the_collection limit: 100 %}
 
-  gallery.append("<div class='gallery-item {{ item[page.facet_by] }} all'><a href='{{ site.baseurl }}/{{ page.collection }}/{{ item.pid }}/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='{{ site.ml.endpoint }}thumbs/{{ item.image_file_name }}'><div class='overlay'><p class='info'>{{ item.title }}</p></div></div></a></div>");
-  {% endfor %}
+  let i = 0;
 
-  {% if page.facet_by %}
-      container.prepend('<div id="facet-buttons"></div><br>');
+{% for item in the_collection limit: 4000 %}
 
-      var buttonDiv = $('#facet-buttons');
-      var facets = Array.from(new Set([{%- for item in the_collection -%}'{{ item[page.facet_by] }}'{% unless forloop.last %}, {% endunless %}{%- endfor -%}]));
+  gallery.append("<div class='gallery-item {{ item[page.facet_by] }} all'><a href='{{ site.baseurl }}/{{ page.collection }}/{{ item.pid | downcase }}/'><div class='hovereffect'><img class='img-responsive gallery-thumb' data-src='{{ site.ml.endpoint }}thumbs/{{ item.image_file_name }}'><div class='overlay'><p class='info'>{{ item.title }}</p></div></div></a></div>");
+  i++;
 
-      // create buttons
-      buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
-      for (i in facets) {
-        buttonDiv.append("<button class='btn facet' data-filter=" + facets[i]+ ">" + facets[i] + "</button>");
-      }
+{% endfor %}
 
+  if (i == 4000) {
 
-      // filter on button click
-      $(document).ready(function(){
-          // clicking button with class "category-button"
-          $(".facet").click(function(){
-              // get the data-filter value of the button
-              var filterValue = $(this).attr('data-filter');
-              // show all items
-              if(filterValue == "all") {
-                  $(".all").show("slow");
-              }
-              else {
-                  // hide all items
-                  $(".all").hide("slow");
-                  // and then, show only items with selected data-filter value
-                  $('.'+filterValue).show("slow");
-              }
-          });
-      });
-    {% endif %}
+    (function(w, d){
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script"); 
+    var v = !("IntersectionObserver" in w) ? "8.15.0" : "10.17.0";
+    s.async = true; 
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+    w.lazyLoadOptions = {
+      elements_selector: '.gallery-thumb'
+    };
+    b.appendChild(s);
+    }(window, document));
+  }
 </script>
