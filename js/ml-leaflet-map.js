@@ -44,7 +44,7 @@ $.getJSON('/js/facets.json', function(d){
     let resetButton = $('button')
         .attr('class','btn btn-sm facet reset')
         .attr('data-filter', '*')
-        .text('Reset');
+        .text('Show All');
     $('#facets').append(resetButton);
 
     // add listeners
@@ -189,10 +189,9 @@ function updateMap() {
         keys.forEach(function(facet){
             if (currFilter[facet] == '*' ) { currFilter[facet] = []; }
             if (currFilter[facet].length) {
-
                 currMonuments.features = currMonuments.features.filter( d => 
-                     currFilter[facet].toLowerCase().replace(/ /g,'').indexOf(
-                            d.properties[facet].toLowerCase().replace(/ /g,'')
+                     d.properties[facet].toLowerCase().replace(/ /g,'').indexOf(
+                            currFilter[facet]
                         ) > -1 && d.properties[facet].length
                 );
             }

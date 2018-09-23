@@ -9,7 +9,7 @@
       {%- endcapture -%}
 
       {%- capture caption -%}
-        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/">{{ object.title }}</a>. {% if object.age %}Age {{ object.age }}. {% endif %}{% if object.age %}From {{ object.neighborhood  }}.{% endif %}
+        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/">{{ object.title }}</a>. {% if object.age %}Age {{ object.age }}. {% endif %}{% if object.neighborhood %}From {{ object.neighborhood  }}.{% endif %}
       {%- endcapture -%}
 
 

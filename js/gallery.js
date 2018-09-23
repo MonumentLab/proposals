@@ -204,11 +204,8 @@ function updateGallery(){
             if (currFilter[d] == '*' ) { currFilter[d] = []; }
             if (currFilter[d].length) {
 
-                // currMonuments = currMonuments.filter( k => currFilter[d].toLowerCase().indexOf(k[d].toLowerCase().replace(/ /g,'')) > -1);
                 currMonuments = currMonuments.filter( function(k) {
-                    // console.log(currFilter[d].toLowerCase(), k[d].toLowerCase().replace(/ /g,''))
-                    // console.log(currFilter[d].toLowerCase().indexOf(k[d].toLowerCase().replace(/ /g,'')))
-                    if (k[d].length && currFilter[d].toLowerCase().replace(/ /g,'').indexOf(k[d].toLowerCase().replace(/ /g,'')) > -1) {
+                    if (k[d].length && k[d].toLowerCase().replace(/ /g,'').indexOf(currFilter[d]) > -1) {
                         return k;
                     }
 

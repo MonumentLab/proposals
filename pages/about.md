@@ -14,6 +14,8 @@ banner:
     zoom: 1
 ---
 
+## PROPOSALS: CREATIVE SPECULATIONS FOR PHILADELPHIA
+
 In 2017, Monument Lab invited 20 artists to create temporary prototype monuments around the city. In the research program of Monument Lab, we invited Philadelphians and visitors to reflect on these prototypes, and on the city itself, and to offer their own proposals for Philadelphia monuments. Each proposal is an idea to be considered, an inspiration to be admired, and an additional perspective on our history and our future. They were collected at learning labs in public squares and city parks, adjacent to the prototype monuments.
 
 The labs were housed in converted shipping containers and staffed by youth researchers, artists, and community members. There, we engaged visitors in conversations about monuments, both real and imagined. Their proposals were transferred to a display at the exhibition hub at PAFA and an online map available the Monument Lab website. Later they were transcribed and analyzed. They will be uploaded as an open dataset, deposited into a local library, and channeled into a final report to the city.
