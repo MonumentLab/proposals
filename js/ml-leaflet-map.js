@@ -227,34 +227,35 @@ function updateMap() {
 function onEachFeature(feature, layer) {
 
     var html = "<a href='/monuments/" + feature.properties.researchID.toLowerCase() +
-        "'><img src='/assets/monuments/thumbs/" + feature.properties.researchID.toUpperCase().replace(/([A-Z]+)/g,'$1_') + ".jpg'></a>";
-    var agePopup = "", zipcodePopup = "", socialMediaPopup = "";
+        "'><img src='/assets/monuments/thumbs/" + feature.properties.researchID.toUpperCase().replace(/([A-Z]+)/g,'$1_') + ".jpg'>";
+
+    var agePopup = "", neighborhoodPopup = "", socialMediaPopup = "";
     if (feature.properties && feature.properties.name && feature.properties.ref) {
         if (feature.properties.age){
-            var agePopup =  "<b>"+"AGE: "+"</b>" + feature.properties.age + "<br/>";
+            var agePopup =  "<strong>"+"Age "+"</strong>" + feature.properties.age + "<br/>";
         }
         if (feature.properties.topicArray) {
-            var topic = feature.properties.topicArray + "<br/";
+            var topic = feature.properties.topicArray + "<br/>";
         }
         if (feature.properties.typeArray) {
-            var type = feature.properties.typeArray + "<br/";
+            var type = feature.properties.typeArray + "<br/>";
         }
-        if (feature.properties.zipcode){
-            var zipcodePopup =  "<b>"+"ZIPCODE: "+"</b>" + feature.properties.zipcode + "<br/>";
+        if (feature.properties.neighborhood){
+            var zipcodePopup =  "<strong>"+"From "+"</strong>" + feature.properties.neighborhood.split(',')[0] + "<br/>";
         }
         if (feature.properties.twitter) {
-            socialMediaPopup = socialMediaPopup + "<a href='https://twitter.com/" + feature.properties.twitter +
-            "'><img class='social_icon' src ='../plugins/leaflet_rs/assets/Twitter_Social_Icon_Circle_White.png'></a>";
+            socialMediaPopup = socialMediaPopup + "<a href='https://twitter.com/" + feature.properties.twitter.replace(/[@]/g,"") +
+            "'><i class='fab fa-twitter'></i></a>";
         }
         if (feature.properties.instagram) {
-            socialMediaPopup = socialMediaPopup + "<a href='https://www.instagram.com/" + feature.properties.instagram +
-            "'><img class='social_icon' src ='../plugins/leaflet_rs/assets/white_glyph-logo_May2016.png'></a>";
+            socialMediaPopup = socialMediaPopup + "<a href='https://www.instagram.com/" + feature.properties.instagram.replace(/[@]/g,"") +
+            "'><i class='fab fa-instagram'></i></a>";
         }
         if (feature.properties.facebook) {
-            socialMediaPopup = socialMediaPopup + "<a href='https://facebook.com/" + feature.properties.facebook +
-            "'><img class='social_icon' src ='../plugins/leaflet_rs/assets/FB-f-Logo__white_29.png'></a>";
+            socialMediaPopup = socialMediaPopup + "<a href='https://facebook.com/" + feature.properties.facebook.replace(/[@]/g,"") +
+            "'><i class='fab fa-facebook'></i></a>";
         }
-        layer.bindPopup("<span style='font-family:sans-serif; font-size: 14px; letter-spacing:1px'><b>TITLE: </b>" + feature.properties.name + "<br />" +
-             type + topic + agePopup + zipcodePopup + "</span>" + "<br />" + html + "<br />"  + socialMediaPopup + "<br />", {autoClose: false});
+        layer.bindPopup(html + "<br /><span><strong>" + feature.properties.name + "</strong><br />" + "</a>"
+            + agePopup + zipcodePopup + "</span>" + socialMediaPopup, {autoClose: false});
     }
 };

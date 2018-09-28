@@ -173,6 +173,7 @@ span.logo.baseline {
     div:nth-of-type(2) a {
         border-bottom: 2px solid rgba($accent-color,0);
         float: right;
+        padding-right: 1.3rem;
     }
 
     div:nth-of-type(2) a:hover {
@@ -298,10 +299,17 @@ span.logo.baseline {
     height: 100%;
     border: 2px solid #000;
     border-radius: 5px; 
-    margin: 1rem 0 1rem 0;
+    margin: $more-margin 0 1rem 0;
 
     img {
         width: 100%;
+    }
+
+    @media (min-width: 534px) {
+        margin-top: $margin;
+    }
+    @media (min-width: 992px) {
+        margin-top: $less-margin;
     }
 }
 
@@ -328,10 +336,42 @@ span.logo.baseline {
         height: calc(100vh - 100px);
         z-index: 0;
 
-        .leaflet-popup-content a img{
-            height: 80px;
-            width: 100px;
+        .leaflet-popup-content-wrapper {
+            padding: .5rem; 
         }
+
+        .leaflet-popup-content a {
+            // transition: .3s ease;
+            color: #333;
+            img {
+                height: 160px;
+                width: 200px;
+                opacity: 1;
+            }
+        }
+
+        .leaflet-popup-content a:hover {
+            color: $accent-color;
+            text-decoration: none;
+            img {
+                opacity: .5;
+            }
+        }
+        .leaflet-popup-content span {
+            font-size: .75rem;
+        }
+
+        .leaflet-popup-content i {
+                font-size: 2rem;
+                transition: .3s ease;
+                color: #333;
+                padding: 1rem 1rem 0 0;
+        }
+
+        .leaflet-popup-content i:hover {
+                color: $accent-color;
+        }
+
     }
 }
 
