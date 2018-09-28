@@ -1,10 +1,10 @@
 // show/hide side pane
-d3.select('#facets > #hide-control > i').on('click', function(e){
+d3.select('#facets #hide-control > i').on('click', function(e){
 
     d3.event.preventDefault();
     let currIcon = d3.select(this).attr('class');
     d3.select('#facets').classed('hide', currIcon.indexOf('left') > -1 );
-
+    console.log('hi');
     currIcon = currIcon == 'fas fa-arrow-circle-left' ? 'fas fa-arrow-circle-right' : 'fas fa-arrow-circle-left'; 
     console.log(currIcon);
     d3.select(this).attr('class', currIcon)
@@ -35,7 +35,7 @@ let monuments = [],
     keys = [];
 
 // get facet categories
-d3.select('#facets #count label span')
+d3.select('#facets #count span')
         .html(4445)
         .style('opacity', 0)
         .transition()
@@ -224,7 +224,7 @@ function updateGallery(){
 
     svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate(currXTranslate,currYTranslate));
     drawGallery(currMonuments);
-    d3.select('#facets #count label span')
+    d3.select('#facets #count span')
         .html(currMonuments.length)
         .style('opacity', 0)
         .transition()

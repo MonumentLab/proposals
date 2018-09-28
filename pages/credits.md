@@ -20,7 +20,7 @@ banner:
 - **Producer:** Kristen Giannantonio
 - **Design:** Liam Hodgson and Steph Garcia
 - **Additional Team Support:** Alliyah Allen, Conrad Benner, Matthew Seamus Callinan, Justin Geller, Gretchen Dykstra, Paloma Lum, and Yannick Trapman-O’Brien
-- **Presented with:** Mural Arts Philadelphia
+- **Presented With:** Mural Arts Philadelphia
 
 ## 2017 Monument Lab Exhibition
 
@@ -134,10 +134,9 @@ banner:
 - Kellan White, Political Consultant
 - Amanda Wagner, City of Philadelphia
 - Pamela Yau, City of Philadelphia Office of Arts, Culture & the Creative Economy
- 
- 
+<br/> 
+
 ### 2017 Exhibition Partners, Supporters, & Sponsors
- 
 Lead Monument Lab partners included the City of Philadelphia; Philadelphia Parks & Recreation; Office of Arts, Culture, & the Creative Economy; Historic Philadelphia; Independence National Historical Park; Penn Institute for Urban Research; Pennsylvania Academy of the Fine Arts; Price Lab for Digital Humanities; and the University of Pennsylvania.
  
 Major support for Monument Lab projects staged in Philadelphia's five squares was provided by The Pew Center for Arts & Heritage.
@@ -146,6 +145,6 @@ An expanded artist roster and projects at five neighborhood sites were made poss
  
 Lead corporate sponsor was Bank of America. Additional support was provided by Susanna Lachs & Dean Adler, William & Debbie Becker, CLAWS Foundation, Comcast NBCUniversal, Davis Charitable Foundation, Hummingbird Foundation, J2 Design, National Endowment for the Arts, Nick & Dee Adams Charitable Fund, Parkway Corporation, PECO, Relief Communications LLC, Sonesta Philadelphia Rittenhouse Square, Stacey Spector & Ira Brind, Tiffany Tavarez, Tuttleman Family Foundation, Joe & Renee Zuritsky, and 432 Kickstarter backers. Support for Monument Lab's final publication provided by the Elizabeth Firestone Graham Foundation.
 
-**Media partner:** WHYY
+**Media Partner:** WHYY
 
 This site built with [Jekyll](https://jekyllrb.com/) and [Wax](https://minicomp.github.io/wiki/#/wax/?id=top).

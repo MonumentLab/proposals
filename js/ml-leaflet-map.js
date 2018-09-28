@@ -10,7 +10,7 @@ var facets = {},
 /* UI */
 
 // show/hide side pane
-$('#facets > #hide-control > i').on('click', function(e){
+$('#facets #hide-control > i').on('click', function(e){
 
     e.preventDefault();
     let currIcon = $(e.target).attr('class');
@@ -41,7 +41,7 @@ $.getJSON('/js/facets.json', function(d){
     });
 
     // add reset button
-    let resetButton = $('button')
+    let resetButton = $('<button>')
         .attr('class','btn btn-sm facet reset')
         .attr('data-filter', '*')
         .text('Show All');
@@ -212,7 +212,7 @@ function updateMap() {
     });
 
     // update current count
-    $('#facets #count label span')
+    $('#facets #count span')
         .fadeOut(375, function() {
             $(this).text(currMonuments.features.length)
                 .fadeIn(375);

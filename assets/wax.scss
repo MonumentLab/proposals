@@ -11,8 +11,8 @@ $logo: url('/assets/ml-logo.png');
 
 // $serif:           -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 // $sans-serif:      -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$serif:           "scto grotesk", courier;
-$sans-serif:      "scto grotesk medium", courier; 
+$serif:           "scto grotesk", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+$sans-serif:      "scto grotesk medium", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
 $main-font-size:  1rem;
 $max-text-width:  800px;
 

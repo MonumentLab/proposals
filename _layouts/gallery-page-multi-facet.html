@@ -24,11 +24,12 @@ layout: default
     {% endfor %}
     {% endcomment %}
 
-
-    <div id="facets" class="col-3">
-      <div id="hide-control" class="float-right"><i class="fas fa-arrow-circle-left"></i></div>
-      <div id="count"><label for=""><span></span>&nbsp;proposals selected</label></div>
+    <div id="facets" class="col-xl-3 col-md-6 col-12">
+      <div class="mb-3" id="facet-control">
+      <div class="float-right" id="hide-control"><i class="fas fa-arrow-circle-left"></i></div>
+      <div id="count"><span></span>&nbsp;proposals selected</div>
       <hr/>
+      </div>
 
       {% for facet in page.facet_by %}
 
