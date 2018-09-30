@@ -1,11 +1,11 @@
----
-sitemap: false
----
+// ---
+// sitemap: false
+// ---
 
 /*
 variable declaration
 */
-$logo: url('/assets/ml-logo.png');
+$logo: url('/assets/MonumentLab_Logo.svg');
 
 /* text */
 
@@ -20,7 +20,7 @@ $max-text-width:  800px;
 
 $text-color:      #222222;
 // $accent-color:    #f44441;
-$accent-color:    #ff6a39;
+$accent-color:    #000;
 $bg-color:        #ffffff;
 $light-grey:      #dee2e6;
 $dark-grey:       #aaaaaa;

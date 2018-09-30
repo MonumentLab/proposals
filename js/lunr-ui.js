@@ -12,7 +12,7 @@ index.addField('title');
 index.addField('location_transcription');
 index.addField('zipcode');
 index.addField('neighborhood');
-// index.addField('age');
+index.addField('age');
 // index.addField('age_range');
 // index.addField('instagram');
 // index.addField('image_file_name');

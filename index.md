@@ -6,9 +6,9 @@ class: home
 
 <div class="textbox">
 
-{{ "## PROPOSALS: CREATIVE SPECULATIONS FOR PHILADELPHIA
+<h2>CREATIVE SPECULATIONS FOR PHILADELPHIA</h2>
 
-In 2017, Monument Lab and our partners at Mural Arts Philadelphia conducted a citywide, participatory research project. We worked with twenty leading contemporary artists to install prototype monuments in public squares and parks, and opened ten adjacent research labs staffed by research teams facilitating dialogue and gathering public proposals. The project was driven by a central question: *What is an appropriate monument for the current City Philadelphia?*  Over 250,000 people engaged in person, over a million on social media platforms, and over 4,500 left their own proposals at one of the labs. It was one of the largest participatory research projects of its kind in Philadelphia." | markdownify }}
+<p>In 2017, Monument Lab and our partners at Mural Arts Philadelphia conducted a citywide, participatory research project. We worked with twenty leading contemporary artists to install prototype monuments in public squares and parks, and opened ten adjacent research labs staffed by research teams facilitating dialogue and gathering public proposals. The project was driven by a central question: *What is an appropriate monument for the current City Philadelphia?*  Over 250,000 people engaged in person, over a million on social media platforms, and over 4,500 left their own proposals at one of the labs. It was one of the largest participatory research projects of its kind in Philadelphia.</p>
 
 </div>
 

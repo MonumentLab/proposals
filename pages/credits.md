@@ -18,8 +18,9 @@ banner:
 ## Monument Lab: Report to the City
 - **Editors:** Paul M. Farber, Ken Lum, and Laurie Allen
 - **Producer:** Kristen Giannantonio
-- **Design:** Liam Hodgson and Steph Garcia
+- **Design:** William Roy Hodgson and Steph Garcia
 - **Additional Team Support:** Alliyah Allen, Conrad Benner, Matthew Seamus Callinan, Justin Geller, Gretchen Dykstra, Paloma Lum, and Yannick Trapman-O’Brien
+- **Technologist:** Nabil Kashyap
 - **Presented With:** Mural Arts Philadelphia
 
 ## 2017 Monument Lab Exhibition

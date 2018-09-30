@@ -1,3 +1,4 @@
+
 /* custom styles extending wax theme */
 
 /* GLOBAL */
@@ -136,9 +137,15 @@ body { height: unset; }
     }
 }
 
-span.logo.baseline {
-    display: inline-block;
-    min-width: 5rem;
+span.icon.logo {
+    display: block;
+    width: auto;
+    height: auto;
+
+    img {
+        display: inline-block;
+        min-width: 250px;
+    }
 }
 
 .nav a.nav-link,
@@ -382,7 +389,7 @@ $small-cluster: 30px;
 .map {
 
     .marker-cluster div {
-        background-image: radial-gradient(rgba(complement($accent-color), 1) 30%, rgba(complement($accent-color), 0));
+        background-image: radial-gradient(rgba($accent-color, 1) 30%, rgba($accent-color, 0));
         text-align: center;
         font: 12px $sans-serif;
         }
@@ -432,3 +439,6 @@ $small-cluster: 30px;
 }
 
 /* END SEARCH */
+
+
+

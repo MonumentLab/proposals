@@ -18,7 +18,7 @@ layout: default
         
         {% if page[field_key] %}
 
-        {% if 'topics,keywords_other,neighborhood' contains field_key %}
+        {% if 'topics,keywords_other,type,neighborhood' contains field_key %}
         {% assign field_value = page[field_key] | replace: ',', ', ' | capitalize %}
         {% else %}
         {% assign field_value = page[field_key] %}
