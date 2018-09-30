@@ -1,3 +1,5 @@
+
+
 /* custom styles extending wax theme */
 
 /* GLOBAL */
@@ -281,7 +283,7 @@ span.logo.baseline {
             font-size: 12px;
             fill: #fff;
             text-anchor: middle; 
-            alignment-baseline: middle; 
+            alignment-baseline: middle;
         }
 
         a:hover .overlay {
@@ -432,3 +434,12 @@ $small-cluster: 30px;
 }
 
 /* END SEARCH */
+
+/* 404 */
+
+#main.error.container {
+    min-height: calc(100vh - 300px + 1rem);
+    center {
+        margin-top: $super-margin;
+    }
+}
