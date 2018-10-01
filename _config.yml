@@ -4,6 +4,11 @@ description:      Creative Speculations for Philadelphia
 url:              ''
 baseurl:          ''
 
+# analytics
+analytics:
+  google:
+    tracking_id          : UA-126727400-1
+
 # build settings
 permalink:        pretty
 exclude:          [Gemfile*,
