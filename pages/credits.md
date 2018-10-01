@@ -104,7 +104,7 @@ banner:
 - **Research Fellows:** Alliyah Allen, Qoura Jones, Sydnie Schwartz, and Raia Stern
  
 #### Flex Team
-- Benjamin Gamarra, Sam Kovant, Eddie Einbender-Luks, Deion Morrison, Samantha Sankey
+- Benjamin Gamarra, Sam Kovant, Eddie Einbender-Luks, Deion Morrison, and Samantha Sankey
  
 #### Data Team
 - **Artistic Data Research Associates:** Heather Emerald Liang, Sidia Mustapha, Ian Schwarzenberg, and Aileen Walsh

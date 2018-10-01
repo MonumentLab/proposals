@@ -7,11 +7,39 @@
 
 }
 
+@font-face {
+    font-family: 'scto grotesk';
+    src: url('/assets/fonts/Scto-Grotesk-A-Regular-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
 
 @font-face {
-    font-family: 'scto grotesk medium';
-    src: url('/assets/fonts/Scto-Grotesk-A-Medium.woff') format('woff');
+    font-family: 'scto grotesk bold';
+    src: url('/assets/fonts/Scto-Grotesk-A-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'scto grotesk bold';
+    src: url('/assets/fonts/Scto-Grotesk-A-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'nocturne serif';
+    src: url('/assets/fonts/378877_0_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nocturne serif';
+    src: url('/assets/fonts/378877_0_1.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }

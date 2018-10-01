@@ -4,9 +4,7 @@ d3.select('#facets #hide-control > i').on('click', function(e){
     d3.event.preventDefault();
     let currIcon = d3.select(this).attr('class');
     d3.select('#facets').classed('hide', currIcon.indexOf('left') > -1 );
-    console.log('hi');
     currIcon = currIcon == 'fas fa-arrow-circle-left' ? 'fas fa-arrow-circle-right' : 'fas fa-arrow-circle-left'; 
-    console.log(currIcon);
     d3.select(this).attr('class', currIcon)
         .style('opacity',0)
         .transition()
@@ -25,7 +23,7 @@ const svg = d3.select('#gallery').append('svg')
             .attr('height', height ),
         gallery = svg.append('g').attr('transform','translate(100)');
 
-var rowLength = 12,
+var rowLength = width < 768 ? 6 : 10,
     tileEdge = rowWidth/rowLength;
 
 let monuments = [],
@@ -84,7 +82,6 @@ d3.json('/js/facets.json').then(function(d){
         d3.event.preventDefault();
         d3.selectAll('#facets select').property('value','*');
 
-        console.log('reset')
         keys.forEach( function(d) { 
             currFilter[d] = [];
         });
@@ -131,8 +128,8 @@ function drawGallery(data){
 
     if (data.length < 6) { rowLength = 3; }
     else if (data.length < 24 ) { rowLength = 6; }
-    else { rowLength = 12; }
-    tileEdge = rowWidth/rowLength;
+    else { rowLength = width < 768 ? 6 : 10; }
+    tileEdge = width/rowLength;
 
     d3.selectAll('svg a').remove();
 
@@ -174,7 +171,7 @@ function drawGallery(data){
             .attr('y',  function(d,i) { return Math.floor(currIndex / rowLength) * tileEdge })
             .attr('width', tileEdge)
             .attr('height', tileEdge)
-            .style('fill','#ff6a39')
+            .style('fill','#222')
             .attr('opacity',0)
             .transition()
             .duration(175)
@@ -214,9 +211,6 @@ function updateGallery(){
                 
         });
     } else { currFilter['reset'] = 0; }
-
-    console.log(currFilter)
-    console.log(currMonuments.length)
 
     // reset zoom/translate on refilter
     let currXTranslate = (width - tileEdge * rowLength) / 2,

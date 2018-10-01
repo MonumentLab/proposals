@@ -13,20 +13,19 @@ layout: default
 
     <table class="table table-striped">
 
-        {% for field in site.ml.display_fields %}
-        {% assign field_key = field[0] %}
+        {% for field in site.ml.item_fields %}
         
-        {% if page[field_key] %}
+        {% if page[field] %}
 
-        {% if 'topics,keywords_other,type,neighborhood' contains field_key %}
-        {% assign field_value = page[field_key] | replace: ',', ', ' | capitalize %}
+        {% if 'topics,keywords_other,type,neighborhood' contains field %}
+        {% assign field_value = page[field] | replace: ',', ', ' | capitalize %}
         {% else %}
-        {% assign field_value = page[field_key] %}
+        {% assign field_value = page[field] %}
         {% endif %}
 
         <tr class="meta">
-            <td class="label">{{ field[1] }}: </td>
-            <td class="value">{{ page[field_key] }}</td>
+            <td class="label">{{ site.ml.display_fields[field] }}: </td>
+            <td class="value">{{ field_value }}</td>
         </tr>
         {% endif %}
 

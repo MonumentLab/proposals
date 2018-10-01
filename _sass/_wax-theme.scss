@@ -26,9 +26,9 @@ html, body {
     color: $accent-color;
   }
   p {
-    font-family: $serif;
+    font-family: $sans-serif;
     color: $text-color;
-    margin: $more-margin 0 $more-margin 0;
+    margin: $margin 0 $margin 0;
     max-width: $max-text-width;
     font-size: $main-font-size;
     @media screen and (max-width: $break-sm) {

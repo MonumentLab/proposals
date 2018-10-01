@@ -75,7 +75,7 @@ $.getJSON('/js/facets.json', function(d){
     //format markers
     var geojsonMarkerOptions = {
         radius: 10,
-        fillColor: "#FF6A39",
+        fillColor: "#222",
         weight: 0,
         fillOpacity: .75
     };

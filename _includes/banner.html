@@ -9,7 +9,7 @@
       {%- endcapture -%}
 
       {%- capture caption -%}
-        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/">{{ object.title }}</a>. {% if object.age %}Age {{ object.age }}. {% endif %}{% if object.neighborhood %}From {{ object.neighborhood  }}.{% endif %}
+        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid | downcase }}/">{{ object.title }}</a>. {% if object.age %}Age {{ object.age }}. {% endif %}{% if object.neighborhood %}From {{ object.neighborhood  }}.{% endif %}
       {%- endcapture -%}
 
 
@@ -28,7 +28,7 @@
       {% endcapture %}
 
       <div class="banner-item">
-        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/">
+        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid | downcase }}/">
           <div class="banner-img">
               <img src="{{ image_uri }}" style="transform: {{ transform-css }};"/>
           </div>

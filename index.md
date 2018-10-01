@@ -8,7 +8,8 @@ class: home
 
 <h2>CREATIVE SPECULATIONS FOR PHILADELPHIA</h2>
 
-<p>In 2017, Monument Lab and our partners at Mural Arts Philadelphia conducted a citywide, participatory research project. We worked with twenty leading contemporary artists to install prototype monuments in public squares and parks, and opened ten adjacent research labs staffed by research teams facilitating dialogue and gathering public proposals. The project was driven by a central question: *What is an appropriate monument for the current City Philadelphia?*  Over 250,000 people engaged in person, over a million on social media platforms, and over 4,500 left their own proposals at one of the labs. It was one of the largest participatory research projects of its kind in Philadelphia.</p>
+<p>In 2017, Monument Lab and our partners at Mural Arts Philadelphia conducted a citywide, participatory research project. We worked with twenty leading contemporary artists to install prototype monuments in public squares and parks, and opened ten adjacent research labs staffed by research teams facilitating dialogue and gathering public proposals. The project was driven by a central question: <em>What is an appropriate monument for the current City Philadelphia?</em> Over 250,000 people engaged in person, over a million on social media platforms, and over 4,500 left their own proposals at one of the labs. It was one of the largest participatory research projects of its kind in Philadelphia.</p>
+<p>Download the full <a href="http://monumentlab.com/s/ML_Report_to_the_City_Web.pdf" target="_blank">Report to the City</a></p>
 
 </div>
 
