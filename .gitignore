@@ -8,7 +8,6 @@ assets/monuments
 assets/stamen-tiles
 vendor
 node_modules
-ml-geo-cleaned.json
 ml-geo.json
 pu.json
 .jekyll-metadata
