@@ -1,15 +1,17 @@
 ---
-pid: LLL16
+pid: lll16
 title: The Philly Web
 location_transcription: moving across the city or replicas across the city That Reflects
   the community it sits in.
+coordinates: "[-75.163662928377, 39.955230916455]"
 zipcode: '19143'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: University City
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLL_16.jpg
+image_file_name: lll_16.jpg
 proposal_transcription: |-
   The [Philly World-Wide] Web
 
@@ -33,7 +35,7 @@ proposal_transcription: |-
   -Faith
 
   -[Other Stuff]
-topic: Art,Education,Family,History,Inclusivity,Neighborhoods,Philadelphia,Religion,Sports,Unity
+topic: Education,Family,History,Inclusivity,Neighborhoods,Religion,Sports,Unity
 topic_summary: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 type: Conceptual,Sculpture Statue
 keywords_other: Web, World Wide Web, Interconnected, Science, Faith, Moveable, City-Wide

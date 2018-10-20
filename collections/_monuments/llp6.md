@@ -1,16 +1,18 @@
 ---
-pid: LLP6
+pid: llp6
 title: Untitled
 location_transcription: Phillies Stadium
+coordinates: "[-75.166504393553, 39.905996598043]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '6'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_6.jpg
+image_file_name: llp_6.jpg
 proposal_transcription: 
-topic: Philadelphia,Sports
+topic: Sports
 topic_summary: 0, 0
 type: Sculpture Statue
 keywords_other: Phillies

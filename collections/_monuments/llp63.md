@@ -1,14 +1,16 @@
 ---
-pid: LLP63
+pid: llp63
 title: Dinasours
 location_transcription: Center City
+coordinates: "[-75.17209143493, 39.956859279033]"
 zipcode: '19149'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Frankford
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_63.jpg
+image_file_name: llp_63.jpg
 proposal_transcription: This is to appreciate the world and things that were from
   the beginning of life, especially dinosaurs.  Happy Face - I'm sorry for the bad
   dinosaurs - I'm bad at drawing them.

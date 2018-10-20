@@ -1,14 +1,16 @@
 ---
-pid: LLG95
+pid: llg95
 title: Mommy Moment Monument
 location_transcription: Old City
+coordinates: "[-75.145406493672, 39.941618591631]"
 zipcode: '19046'
-outside_phl: 'Jenkintown PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Jenkintown PA '
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_95.jpg
+image_file_name: llg_95.jpg
 proposal_transcription: |-
   Mommy putting baby up on pedestal
   baby

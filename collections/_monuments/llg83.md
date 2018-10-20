@@ -1,14 +1,16 @@
 ---
-pid: LLG83
+pid: llg83
 title: Friends
 location_transcription: anywhere
+coordinates: "[-75.181122788912, 40.029717562484]"
 zipcode: '19194'
-outside_phl: 'Philadelphia PA '
+gen_neighborhood: 
 neighborhood: Rittenhouse Square, Fitler Square, Logan Square
+outside_phl: 'Philadelphia PA '
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_83.jpg
+image_file_name: llg_83.jpg
 proposal_transcription: |-
   - shows people together; unity
   - Represents Peace

@@ -1,16 +1,18 @@
 ---
-pid: LLG69
+pid: llg69
 title: "[Untitled]"
 location_transcription: Mt. Airy
+coordinates: "[-75.192058529635, 40.065306916951]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLG_69.jpg
+image_file_name: llg_69.jpg
 proposal_transcription: Add a mural or some piece of cool art work
-topic: Art,Neighborhoods
+topic: Neighborhoods
 topic_summary: 0, 0
 type: Conceptual
 keywords_other: proposal, request

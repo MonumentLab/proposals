@@ -1,10 +1,12 @@
 ---
-pid: MX9
+pid: mx9
 title: Sculpture Sculpture
 location_transcription: Malcom X Park
+coordinates: "[-75.2276214, 39.9526633]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '5'
 age_range: "<6"
 instagram: 

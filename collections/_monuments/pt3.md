@@ -1,14 +1,16 @@
 ---
-pid: PT3
+pid: pt3
 title: "[Untitled]"
 location_transcription: Penn hospital Civic Blvd
+coordinates: "[-75.193347941373, 39.947121422513]"
 zipcode: '19142'
-outside_phl: 
+gen_neighborhood: Southwest Philadelphia
 neighborhood: Elmwood,Southwest Philadelphia
+outside_phl: 
 age: '32'
 age_range: 30-39
 instagram: 
-image_file_name: PT_3.jpg
+image_file_name: pt_3.jpg
 proposal_transcription: |-
   Neurology
   lightbulb brain

@@ -1,14 +1,16 @@
 ---
-pid: LLB55
+pid: llb55
 title: The House is Divided, Once Again
 location_transcription: Independence Hall
+coordinates: "[-75.1522149, 39.9488703]"
 zipcode: '94114'
-outside_phl: 'San Francisco CA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'San Francisco CA '
 age: '31'
 age_range: 30-39
 instagram: 
-image_file_name: LLB_55.jpg
+image_file_name: llb_55.jpg
 proposal_transcription: Country/nation is divided in a destructive manner. We fail
   to bridge our differences and understand each other. My monument will be a model
   of independence hall, instead of bricks, made of glass and iron to indicate that

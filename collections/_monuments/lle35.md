@@ -1,14 +1,16 @@
 ---
-pid: LLE35
+pid: lle35
 title: Duck Tape Law
 location_transcription: In the Downtown
+coordinates: "[-75.1777311, 39.9504667]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLE_35.jpg
+image_file_name: lle_35.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

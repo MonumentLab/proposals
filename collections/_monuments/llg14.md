@@ -1,14 +1,16 @@
 ---
-pid: LLG14
+pid: llg14
 title: Ode to Monday's Lasagna
 location_transcription: somewhere in centre city
+coordinates: "[-75.16378999803, 39.9539314882]"
 zipcode: '19138'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: West Oak Lane
+outside_phl: 
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_14.jpg
+image_file_name: llg_14.jpg
 proposal_transcription: |-
   [I hate kids with T-Shirts]
 

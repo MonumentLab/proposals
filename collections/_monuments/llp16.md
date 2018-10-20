@@ -1,16 +1,18 @@
 ---
-pid: LLP16
+pid: llp16
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.163741718267, 39.955280261345]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLP_16.jpg
+image_file_name: llp_16.jpg
 proposal_transcription: 
-topic: Figure
+topic: Person
 topic_summary: '0'
 type: Sculpture Statue
 keywords_other: 

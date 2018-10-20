@@ -1,14 +1,16 @@
 ---
-pid: LLP8
+pid: llp8
 title: Stachu of liberty
 location_transcription: Philly
+coordinates: "[-75.163822184538, 39.951648383513]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLP_8.jpg
+image_file_name: llp_8.jpg
 proposal_transcription: 
 topic: History,Immigration,Unity,Uplifting
 topic_summary: 0, 0, 0, 0

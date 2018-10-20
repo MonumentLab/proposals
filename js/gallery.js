@@ -71,7 +71,7 @@ d3.json('/js/facets.json').then(function(d){
           let currFacetValue = facets[d][i];
           let currFacet = $('#facets > .input-group[data-filter-group=' + d + '] select');
           currFacet.append("<option value=" 
-            + currFacetValue.replace(/ /g,'') + ">" 
+            + currFacetValue.toLowerCase() + ">" 
             + currFacetValue.toUpperCase() + "</option>");
         }
     });
@@ -104,7 +104,6 @@ d3.json('/js/facets.json').then(function(d){
 d3.json('/js/lunr-index.json').then(function(d){
     monuments = d;
     currMonuments = monuments;
-
     drawGallery(currMonuments);
 });
 
@@ -142,7 +141,7 @@ function drawGallery(data){
 
     let monument = galleryTiles.enter()
                     .append('a')
-                    .attr('xlink:href', d => '/monuments/' + d.pid.toLowerCase());
+                    .attr('xlink:href', d => '/monuments/' + d.pid);
 
     monument.append('image')
         .style('opacity',0)
@@ -201,15 +200,14 @@ function updateGallery(){
             if (currFilter[d] == '*' ) { currFilter[d] = []; }
             if (currFilter[d].length) {
 
-                currMonuments = currMonuments.filter( function(k) {
-                    if (k[d].length && k[d].toLowerCase().replace(/ /g,'').indexOf(currFilter[d]) > -1) {
-                        return k;
-                    }
-
-                });
+                currMonuments = currMonuments.filter( k =>
+                    k[d] && 
+                    k[d].length &&
+                    k[d].toLowerCase().indexOf(currFilter[d]) > -1
+                );
             }
-                
         });
+                
     } else { currFilter['reset'] = 0; }
 
     // reset zoom/translate on refilter

@@ -1,14 +1,16 @@
 ---
-pid: LLL1
+pid: lll1
 title: Interdependence
 location_transcription: Mobile
+coordinates: "[-75.163641470706, 39.955280261345]"
 zipcode: '18940'
-outside_phl: 'Newtown PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Newtown PA '
 age: '61'
 age_range: 60-69
 instagram: 
-image_file_name: LLL_1.jpg
+image_file_name: lll_1.jpg
 proposal_transcription: |-
   Interrelation and interdependency of cultures and race.  Race & bias extend far beyond the issue of black & white.  Go beyond difference and recognize value of and necessity of our relationships in business, religion, education, commerce and personal relationships.
 

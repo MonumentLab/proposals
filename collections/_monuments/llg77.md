@@ -1,14 +1,16 @@
 ---
-pid: LLG77
+pid: llg77
 title: Polluted Waters
 location_transcription: By the Boathouses
+coordinates: "[-75.185650357734, 39.9695928884]"
 zipcode: '19002'
-outside_phl: 'Ambler PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Ambler PA '
 age: '15'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_77.jpg
+image_file_name: llg_77.jpg
 proposal_transcription: |-
   1
   a sphere w/ the world painted on

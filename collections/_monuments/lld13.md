@@ -1,14 +1,16 @@
 ---
-pid: LLD13
+pid: lld13
 title: Kevin Costner's Butt (from Dances with Wolves)
 location_transcription: Washington & Broad
+coordinates: "[-75.167152147029, 39.938204804451]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLD_13.jpg
+image_file_name: lld_13.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

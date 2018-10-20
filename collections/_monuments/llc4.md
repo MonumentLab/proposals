@@ -1,14 +1,16 @@
 ---
-pid: LLC4
+pid: llc4
 title: Foodstand
 location_transcription: 
+coordinates: "[-75.164534311031, 39.952483994748]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLC_4.jpg
+image_file_name: llc_4.jpg
 proposal_transcription: Free food
 topic: Food
 topic_summary: '0'

@@ -1,21 +1,23 @@
 ---
-pid: LLG16
+pid: llg16
 title: What You Want It To Be
 location_transcription: replace city hall
+coordinates: "[-75.164601366256, 39.952500443709]"
 zipcode: '09218'
-outside_phl: X Armed Forces, Europe
+gen_neighborhood: 
 neighborhood: 
+outside_phl: INTERNATIONAL  Armed Forces, Europe
 age: 
 age_range: 
 instagram: 
-image_file_name: LLG_16.jpg
+image_file_name: llg_16.jpg
 proposal_transcription: |-
   as tall as //former// city hall
 
   you can see your reflection
 
   //TO BE FAIR, YOU HAVE TO HAV
-topic: Architecture,Philadelphia,Social Justice
+topic: Architecture,Social Justice
 topic_summary: 0, 0, 0
 type: Sculpture Statue
 keywords_other: city hall, replace, mirror, reflection

@@ -1,14 +1,16 @@
 ---
-pid: LLP17
+pid: llp17
 title: Chloe Mae
 location_transcription: 
+coordinates: "[-75.163414153492, 39.955181571529]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLP_17.jpg
+image_file_name: llp_17.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

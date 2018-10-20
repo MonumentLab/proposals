@@ -1,14 +1,16 @@
 ---
-pid: LLE7
+pid: lle7
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.163655217026, 39.955263813053]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '17'
 age_range: 13-19
 instagram: 
-image_file_name: LLE_7.jpg
+image_file_name: lle_7.jpg
 proposal_transcription: |-
   something that tells the-story of youth trans POC!!!
   - Trans flag color scheme??

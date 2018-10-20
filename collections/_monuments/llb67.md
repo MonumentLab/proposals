@@ -1,16 +1,18 @@
 ---
-pid: LLB67
+pid: llb67
 title: CHAMP
 location_transcription: Phila Museum of Art
+coordinates: "[-75.179985176063, 39.965148523748]"
 zipcode: '19103'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Rittenhouse Square,Avenue of The Arts,Logan Square,Fitler Square
+outside_phl: 
 age: '74'
 age_range: 70+
 instagram: 
-image_file_name: LLB_67.jpg
+image_file_name: llb_67.jpg
 proposal_transcription: Statue of Joe Frazier
-topic: Figure,Sports
+topic: Person,Sports
 topic_summary: 0, 0
 type: Sculpture Statue
 keywords_other: 

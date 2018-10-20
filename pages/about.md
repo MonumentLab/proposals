@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 banner:
   - collection: monuments
-    pid: CH1024
+    pid: ch1024
     zoom: 1
   - collection: monuments
-    pid: CH231
+    pid: ch231
     zoom: 1
   - collection: monuments
-    pid: CH1063
+    pid: ch1063
     zoom: 1
 ---
 

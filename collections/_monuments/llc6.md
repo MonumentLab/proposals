@@ -1,14 +1,16 @@
 ---
-pid: LLC6
+pid: llc6
 title: No discrimination
 location_transcription: In front of city hall
+coordinates: "[-75.164478655194, 39.952483994748]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLC_6.jpg
+image_file_name: llc_6.jpg
 proposal_transcription: 
 topic: Family,Immigration,Race Ethnicity
 topic_summary: 0, 0, 0

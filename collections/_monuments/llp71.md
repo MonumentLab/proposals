@@ -1,14 +1,16 @@
 ---
-pid: LLP71
+pid: llp71
 title: World of Music / Our Heros / Equal Rights
 location_transcription: Anywhere in center city
+coordinates: "[-75.155543814896, 39.951198222701]"
 zipcode: '19154'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Parkwood
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_71.jpg
+image_file_name: llp_71.jpg
 proposal_transcription: |-
   World of Music
   -> Music Expresses the World

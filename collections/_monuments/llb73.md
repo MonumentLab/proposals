@@ -1,14 +1,16 @@
 ---
-pid: LLB73
+pid: llb73
 title: Kindness is Key
 location_transcription: 
+coordinates: "[-75.171960006685, 39.960263911862]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '19'
 age_range: 13-19
 instagram: 
-image_file_name: LLB_73.jpg
+image_file_name: llb_73.jpg
 proposal_transcription: These figures are genderless + faceless save for their expressions.
 topic: Unity,Uplifting
 topic_summary: 0, 0

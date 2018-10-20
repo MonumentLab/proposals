@@ -1,16 +1,18 @@
 ---
-pid: LLE6
+pid: lle6
 title: 'Questlove: The Pride of Philly'
 location_transcription: 
+coordinates: "[-75.163676674699, 39.955198019842]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLE_6.jpg
+image_file_name: lle_6.jpg
 proposal_transcription: 
-topic: Figure,Philadelphia
+topic: Person
 topic_summary: 0, 0
 type: Other No Form
 keywords_other: questlove

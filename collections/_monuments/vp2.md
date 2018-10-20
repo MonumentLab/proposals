@@ -1,14 +1,16 @@
 ---
-pid: VP2
+pid: vp2
 title: California Shadows
 location_transcription: California
+coordinates: "[-75.176492452071, 40.035594714129]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '8'
 age_range: 6-13
 instagram: 
-image_file_name: VP_2.jpg
+image_file_name: vp_2.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

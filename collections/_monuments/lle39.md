@@ -1,14 +1,16 @@
 ---
-pid: LLE39
+pid: lle39
 title: Make This True
 location_transcription: Near the river
+coordinates: "[-75.140151451251, 39.947547831895]"
 zipcode: '19122'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Yorktown,Old Kensington,Jinogi
+outside_phl: 
 age: '7'
 age_range: 6-13
 instagram: 
-image_file_name: LLE_39.jpg
+image_file_name: lle_39.jpg
 proposal_transcription: 
 topic: Uplifting
 topic_summary: '0'

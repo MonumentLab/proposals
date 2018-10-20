@@ -1,14 +1,16 @@
 ---
-pid: PT6
+pid: pt6
 title: Homeless Awareness
 location_transcription: Public playgrounds
+coordinates: "[-75.1306735, 39.9662739]"
 zipcode: '19125'
-outside_phl: 
+gen_neighborhood: River Wards
 neighborhood: Fishtown,Kensington
+outside_phl: 
 age: '13'
 age_range: 13-19
 instagram: 
-image_file_name: PT_6.jpg
+image_file_name: pt_6.jpg
 proposal_transcription: 
 topic: Unity
 topic_summary: '0'

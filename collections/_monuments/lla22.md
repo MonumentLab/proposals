@@ -1,14 +1,16 @@
 ---
-pid: LLA22
+pid: lla22
 title: Usain Bolt
 location_transcription: 
+coordinates: "[-75.150389681791, 39.95547764055]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '13'
 age_range: 13-19
 instagram: 
-image_file_name: LLA_22.jpg
+image_file_name: lla_22.jpg
 proposal_transcription: 
 topic: Sports
 topic_summary: '0'

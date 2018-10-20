@@ -1,14 +1,16 @@
 ---
-pid: LLP14
+pid: llp14
 title: SilD
 location_transcription: 
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLP_14.jpg
+image_file_name: llp_14.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

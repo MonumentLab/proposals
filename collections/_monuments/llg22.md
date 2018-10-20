@@ -1,14 +1,16 @@
 ---
-pid: LLG22
+pid: llg22
 title: The Process
 location_transcription: Germantown
+coordinates: "[-75.176557312932, 40.035730814438]"
 zipcode: '19038'
-outside_phl: 'Glenside PA '
+gen_neighborhood: 
 neighborhood: Glenside
+outside_phl: 'Glenside PA '
 age: '17'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_22.jpg
+image_file_name: llg_22.jpg
 proposal_transcription: Have a lot of lego blocks (different shapes) with a half made
   structure (whether is be house ... ) and just have a sign that asks people do finish
   it, one person moving one block do whatever they want on the building and then seeing

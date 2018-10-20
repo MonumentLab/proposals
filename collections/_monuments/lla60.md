@@ -1,14 +1,16 @@
 ---
-pid: LLA60
+pid: lla60
 title: Industrial ERA Old Steam Plant
 location_transcription: Exists at approximately N. 10th and Girard
+coordinates: "[-75.155794792308, 39.968451454005]"
 zipcode: '19106'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Society Hill,Old City
+outside_phl: 
 age: '73'
 age_range: 70+
 instagram: 
-image_file_name: LLA_60.jpg
+image_file_name: lla_60.jpg
 proposal_transcription: |-
   Now graffiti filled and rusted
 

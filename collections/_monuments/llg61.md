@@ -1,14 +1,16 @@
 ---
-pid: LLG61
+pid: llg61
 title: Brotherly Love
 location_transcription: 15th and JFK Boulevard
+coordinates: "[-75.164936032075, 39.954583446194]"
 zipcode: '19144'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Germantown
+outside_phl: 
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_61.jpg
+image_file_name: llg_61.jpg
 proposal_transcription: |-
   long bench, with good depth as well so people feel welcome to join the couple
 

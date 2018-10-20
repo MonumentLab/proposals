@@ -1,14 +1,16 @@
 ---
-pid: LLP35
+pid: llp35
 title: Ringless and even
 location_transcription: City hall
+coordinates: "[-75.164457197522, 39.952483994748]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_35.jpg
+image_file_name: llp_35.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

@@ -1,14 +1,16 @@
 ---
-pid: RS2
+pid: rs2
 title: Growth
 location_transcription: Independence Mall
+coordinates: "[-75.149585019086, 39.951028246005]"
 zipcode: '19103'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Rittenhouse Square,Avenue of The Arts,Logan Square,Fitler Square
+outside_phl: 
 age: '70'
 age_range: 70+
 instagram: 
-image_file_name: RS_2.jpg
+image_file_name: rs_2.jpg
 proposal_transcription: founding fathers in boarder shorts with dredlocked powdered
   wigs
 topic: History

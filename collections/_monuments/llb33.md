@@ -1,17 +1,19 @@
 ---
-pid: LLB33
+pid: llb33
 title: Sky Beans
 location_transcription: Barnes Foundation Roof Top
+coordinates: "[-75.172783, 39.960599]"
 zipcode: '19130'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Art Museum,Francisville
+outside_phl: 
 age: '31'
 age_range: 30-39
 instagram: 
-image_file_name: LLB_33.jpg
+image_file_name: llb_33.jpg
 proposal_transcription: I recently moved to Philly from Japan, Tokyo. And I like the
   sky in Philly :)
-topic: Philadelphia
+topic: 
 topic_summary: '0'
 type: Fountain,Conceptual
 keywords_other: 

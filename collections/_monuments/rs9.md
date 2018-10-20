@@ -1,16 +1,18 @@
 ---
-pid: RS9
+pid: rs9
 title: Fountain of Freedom
 location_transcription: Center of Rittenhouse Square
+coordinates: "[-75.171871493791, 39.949469655806]"
 zipcode: '19422'
-outside_phl: 'Blue Bell PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Blue Bell PA '
 age: '19'
 age_range: 13-19
 instagram: 
-image_file_name: RS_9.jpg
+image_file_name: rs_9.jpg
 proposal_transcription: Important civil rights leaders
-topic: Figure,History,Social Justice,Race Ethnicity
+topic: Person,History,Social Justice,Race Ethnicity
 topic_summary: 0, 0, 0, 0
 type: Fountain
 keywords_other: 

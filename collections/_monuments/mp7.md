@@ -1,18 +1,20 @@
 ---
-pid: MP7
+pid: mp7
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.1735079, 39.9156375]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: MP_7.jpg
+image_file_name: mp_7.jpg
 proposal_transcription: |-
   -Malcolm X
   -Revolutionary
-topic: African Americans,Figure,History
+topic: African Americans,Person,History
 topic_summary: 0, 0, 0
 type: Other No Form
 keywords_other: 

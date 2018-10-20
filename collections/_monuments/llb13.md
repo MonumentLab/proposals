@@ -1,14 +1,16 @@
 ---
-pid: LLB13
+pid: llb13
 title: Nest
 location_transcription: Anywhere?
+coordinates: "[-75.173028196429, 39.960510617799]"
 zipcode: '19130'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Art Museum,Francisville
+outside_phl: 
 age: '29'
 age_range: 20-29
 instagram: 
-image_file_name: LLB_13.jpg
+image_file_name: llb_13.jpg
 proposal_transcription: |-
   -Made of stick + branches -30ft. -eggs
   Semi-interactive. People can walk in, sit, + explore

@@ -1,14 +1,16 @@
 ---
-pid: LLP65
+pid: llp65
 title: The monument of caught & free dreams
 location_transcription: central philadelphia
+coordinates: "[-75.160045634245, 39.949577952178]"
 zipcode: '19124'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Juniata,Frankford,Feltonville
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_65.jpg
+image_file_name: llp_65.jpg
 proposal_transcription: |-
   I will be ____
   I am a ___

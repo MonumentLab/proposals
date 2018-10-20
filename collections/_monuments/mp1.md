@@ -1,14 +1,16 @@
 ---
-pid: MP1
+pid: mp1
 title: People of Peace
 location_transcription: Where Rizzo Area
+coordinates: "[-75.1789056, 40.0356086]"
 zipcode: '19147'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Queen Village,Bella Vista,Pennsport,Italian Market
+outside_phl: 
 age: '62'
 age_range: 60-69
 instagram: 
-image_file_name: MP_1.jpg
+image_file_name: mp_1.jpg
 proposal_transcription: 
 topic: Inclusivity,Unity,Uplifting
 topic_summary: 0, 0, 0

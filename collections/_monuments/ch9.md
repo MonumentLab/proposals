@@ -1,14 +1,16 @@
 ---
-pid: CH9
+pid: ch9
 title: Sport Monument
 location_transcription: Hunting Park
+coordinates: "[-75.144252787571, 40.016539129433]"
 zipcode: '19120'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Logan,Olney
+outside_phl: 
 age: '22'
 age_range: 20-29
 instagram: 
-image_file_name: CH_9.jpg
+image_file_name: ch_9.jpg
 proposal_transcription: My monument is sport because sport bring young people together
   from every race of the world
 topic: Neighborhoods,Sports,Youth

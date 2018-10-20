@@ -1,14 +1,16 @@
 ---
-pid: VP3
+pid: vp3
 title: Always Be Crearative
 location_transcription: Center of North Philly
+coordinates: "[-75.151242624257, 39.989656768649]"
 zipcode: '19144'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Germantown
+outside_phl: 
 age: '8'
 age_range: 6-13
 instagram: 
-image_file_name: VP_3.jpg
+image_file_name: vp_3.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

@@ -1,14 +1,16 @@
 ---
-pid: LLB65
+pid: llb65
 title: Play Green
 location_transcription: Any open space
+coordinates: "[-75.1750015, 39.9606433]"
 zipcode: '19122'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Yorktown,Old Kensington,Jinogi
+outside_phl: 
 age: '19'
 age_range: 13-19
 instagram: 
-image_file_name: LLB_65.jpg
+image_file_name: llb_65.jpg
 proposal_transcription: A playground or series of playgrounds that feature play equipment
   for children of all ages 0-100+. In addition all the equipment would produce energy
   to help power playground lights and nearby homes - similar to the ideas of Andrew

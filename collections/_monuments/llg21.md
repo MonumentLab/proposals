@@ -1,14 +1,16 @@
 ---
-pid: LLG21
+pid: llg21
 title: Shadow Fish
 location_transcription: Mt. Airy
+coordinates: "[-75.224575, 40.0516978]"
 zipcode: '19119'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Mount Airy
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLG_21.jpg
+image_file_name: llg_21.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

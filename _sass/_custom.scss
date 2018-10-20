@@ -57,6 +57,9 @@ body { height: unset; }
 
 #wax-gallery #gallery {
     justify-content: center;
+    .overlay p {
+        font-family: $serif;
+    }
 }
 
 span.email {
@@ -297,7 +300,8 @@ span.icon.logo {
 
         a text.overlay {
             font-family: $serif;
-            font-size: 12px;
+            // font-size: 12px;
+            font-size: 1rem;
             fill: #fff;
             text-anchor: middle; 
             alignment-baseline: middle;

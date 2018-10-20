@@ -1,14 +1,16 @@
 ---
-pid: LLE27
+pid: lle27
 title: Alexander Hamilton
 location_transcription: 
+coordinates: "[-75.163642141257, 39.955181571529]"
 zipcode: NJ08075
-outside_phl: Riverside NJ
+gen_neighborhood: 
 neighborhood: 
+outside_phl: Riverside NJ
 age: '3'
 age_range: "<6"
 instagram: 
-image_file_name: LLE_27.jpg
+image_file_name: lle_27.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

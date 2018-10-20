@@ -1,14 +1,16 @@
 ---
-pid: LLE43
+pid: lle43
 title: Digging the Grave
 location_transcription: 440 N Broad Broad+Spring Garden
+coordinates: "[-75.162861283158, 39.961004027003]"
 zipcode: '19122'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Yorktown,Old Kensington,Jinogi
+outside_phl: 
 age: '43'
 age_range: 40-49
 instagram: 
-image_file_name: LLE_43.jpg
+image_file_name: lle_43.jpg
 proposal_transcription: 
 topic: Education
 topic_summary: '0'

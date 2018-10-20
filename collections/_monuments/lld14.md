@@ -1,16 +1,18 @@
 ---
-pid: LLD14
+pid: lld14
 title: Welcome to the City of Brotherly Love
 location_transcription: A Gayborhood
+coordinates: "[-75.162002305721, 39.948108430564]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLD_14.jpg
+image_file_name: lld_14.jpg
 proposal_transcription: 
-topic: Brotherly Love,LGBTQ+,Philadelphia
+topic: Brotherly Love,LGBTQ+
 topic_summary: 0, 0, 0
 type: Other No Form
 keywords_other: brotherly love, lgbt, homeless

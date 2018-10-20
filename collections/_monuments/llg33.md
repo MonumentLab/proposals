@@ -1,16 +1,18 @@
 ---
-pid: LLG33
+pid: llg33
 title: Triumph
 location_transcription: somewhere in Philadelphia
+coordinates: "[-75.17498956177, 40.035763672282]"
 zipcode: '19087'
-outside_phl: 'Wayne PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Wayne PA '
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_33.jpg
+image_file_name: llg_33.jpg
 proposal_transcription: 
-topic: Architecture,Culture,Neighborhoods,Philadelphia,Uplifting
+topic: Architecture,Neighborhoods,Uplifting
 topic_summary: 0, 0, 0, 0, 0
 type: Interactive,Sculpture Statue
 keywords_other: stoops, steps, stairs, accomplishment, triumph

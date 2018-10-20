@@ -1,14 +1,16 @@
 ---
-pid: LLP13
+pid: llp13
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: '19116'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Somerton,Bustleton
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_13.jpg
+image_file_name: llp_13.jpg
 proposal_transcription: 
 topic: Inclusivity
 topic_summary: '0'

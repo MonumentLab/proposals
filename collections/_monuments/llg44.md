@@ -1,14 +1,16 @@
 ---
-pid: LLG44
+pid: llg44
 title: Stamps.
 location_transcription: ALL post offices
+coordinates: "[-75.1867597, 39.953142]"
 zipcode: '19128'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Roxborough
+outside_phl: 
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_44.jpg
+image_file_name: llg_44.jpg
 proposal_transcription: "$0.50"
 topic: Animals,Unknown,Youth
 topic_summary: 0, 0, 0

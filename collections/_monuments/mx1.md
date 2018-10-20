@@ -1,18 +1,20 @@
 ---
-pid: MX1
+pid: mx1
 title: "[Untitled]"
 location_transcription: Malcolm X Park
+coordinates: "[-75.225437890028, 39.952632035257]"
 zipcode: '19139'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: Walnut Hill
+outside_phl: 
 age: '62'
 age_range: 60-69
 instagram: 
-image_file_name: MX_1.jpg
+image_file_name: mx_1.jpg
 proposal_transcription: |-
   Statue or quote of Malcolm X
   something to show you that you are in Malcolm X Park
-topic: Figure,History
+topic: Person,History
 topic_summary: 0, 0
 type: Park,Sculpture Statue,Other No Form
 keywords_other: 

@@ -1,14 +1,16 @@
 ---
-pid: FS8
+pid: fs8
 title: Poenopqr (pronounced Ponton)
 location_transcription: 
+coordinates: "[-75.150486241315, 39.955336185411]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '4'
 age_range: "<6"
 instagram: 
-image_file_name: FS_8.jpg
+image_file_name: fs_8.jpg
 proposal_transcription: 
 topic: Animals
 topic_summary: '0'

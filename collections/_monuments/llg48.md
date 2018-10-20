@@ -1,17 +1,19 @@
 ---
-pid: LLG48
+pid: llg48
 title: Citizens of Philadelphia
 location_transcription: Center City
+coordinates: "[-75.172939743778, 39.954402512913]"
 zipcode: '19144'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Germantown
+outside_phl: 
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_48.jpg
+image_file_name: llg_48.jpg
 proposal_transcription: Pictures of everybody in the city formed to shape different
   monuments in Philadelphia (ex. liberty bell, love statue)
-topic: Art,Inclusivity,Philadelphia
+topic: Inclusivity
 topic_summary: 0, 0, 0
 type: 2D,Mosaic,Image
 keywords_other: faces, photos, liberty bell, love statue, citizens

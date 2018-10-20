@@ -13,23 +13,26 @@ layout: default
 
     <table class="table table-striped">
 
-        {% for field in site.ml.item_fields %}
-        
-        {% if page[field] %}
-
+    {% for field in site.ml.item_fields %}
+    
+    {% if page[field] %}
+    
         {% if 'topics,keywords_other,type,neighborhood' contains field %}
-        {% assign field_value = page[field] | replace: ',', ', ' | capitalize %}
+        {% assign field_value = page[field] | replace: ',', ', ' %}
+        {% elsif 'outside_phl' contains field %}
+        {% assign field_value = page[field] | replace: 'INTERNATIONAL', '' %}
         {% else %}
         {% assign field_value = page[field] %}
         {% endif %}
+    
+    <tr class="meta">
+        <td class="label">{{ site.ml.display_fields[field] }}: </td>
+        <td class="value">{{ field_value }}</td>
+    </tr>
+    {% endif %}
+    
+    {% endfor %}
 
-        <tr class="meta">
-            <td class="label">{{ site.ml.display_fields[field] }}: </td>
-            <td class="value">{{ field_value }}</td>
-        </tr>
-        {% endif %}
-
-        {% endfor %}
     </table>
   </div>
 </center>

@@ -1,16 +1,18 @@
 ---
-pid: LS4
+pid: ls4
 title: The Greatest
 location_transcription: 
+coordinates: "[-75.1642544, 39.9525137]"
 zipcode: '19107'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Washington Square West,Avenue of The Arts,Midtown Village,Chinatown
+outside_phl: 
 age: '58'
 age_range: 50-59
 instagram: 
-image_file_name: LS_4.jpg
+image_file_name: ls_4.jpg
 proposal_transcription: A statue of Muhammad Ali posing with his quick jab.
-topic: African Americans,Figure,Sports
+topic: African Americans,Person,Sports
 topic_summary: 0, 0, 0
 type: Sculpture Statue
 keywords_other: Muhammad Ali, Dilworth Park

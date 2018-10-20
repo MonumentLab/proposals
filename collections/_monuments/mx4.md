@@ -1,10 +1,12 @@
 ---
-pid: MX4
+pid: mx4
 title: Each One/ Teach One
 location_transcription: Malcolm X Park
+coordinates: "[-75.2276214, 39.9526633]"
 zipcode: '19139'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: Walnut Hill
+outside_phl: 
 age: '36'
 age_range: 30-39
 instagram: 

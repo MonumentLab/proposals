@@ -1,14 +1,16 @@
 ---
-pid: LLE37
+pid: lle37
 title: OPEN HANDS
 location_transcription: Where Ever
+coordinates: "[-75.163580848129, 39.955197169361]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLE_37.jpg
+image_file_name: lle_37.jpg
 proposal_transcription: 
 topic: Uplifting
 topic_summary: '0'

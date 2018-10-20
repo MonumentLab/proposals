@@ -1,14 +1,16 @@
 ---
-pid: LLE22
+pid: lle22
 title: Ant Love
 location_transcription: Center CIty
+coordinates: "[-75.161471228336, 39.951069369276]"
 zipcode: '19127'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Manayunk
+outside_phl: 
 age: '21'
 age_range: 20-29
 instagram: 
-image_file_name: LLE_22.jpg
+image_file_name: lle_22.jpg
 proposal_transcription: |-
   Loving each other.
   Loving nature.

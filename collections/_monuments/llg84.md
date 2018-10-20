@@ -1,14 +1,16 @@
 ---
-pid: LLG84
+pid: llg84
 title: Hidden Streams
 location_transcription: 
+coordinates: "[-75.172274555939, 40.032981152044]"
 zipcode: '19119'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Mount Airy
+outside_phl: 
 age: '43'
 age_range: 40-49
 instagram: 
-image_file_name: LLG_84.jpg
+image_file_name: llg_84.jpg
 proposal_transcription: |-
   A monument to the hidden streams which feed our landscape
   acknowledging the unique interplay of nature & city in Phila. Also a nod to the rooted energy of the city's people and the many //hidden treasures.//
@@ -19,7 +21,7 @@ proposal_transcription: |-
 
   <— roots
   <— water
-topic: Architecture,Culture,Environment,Neighborhoods,Philadelphia,Unity
+topic: Architecture,Environment,Neighborhoods,Unity
 topic_summary: 0, 0, 0, 0, 0, 0
 type: Tree,Sculpture Statue
 keywords_other: streams, water, watershed, roots, energy, nature

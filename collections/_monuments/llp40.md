@@ -1,14 +1,16 @@
 ---
-pid: LLP40
+pid: llp40
 title: America Divided
 location_transcription: City Hall
+coordinates: "[-75.164476643537, 39.95243464784]"
 zipcode: '19147'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Queen Village,Bella Vista,Pennsport,Italian Market
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_40.jpg
+image_file_name: llp_40.jpg
 proposal_transcription: It is supposed to show the democratic symbol splitting off
   from the republican
 topic: Politics

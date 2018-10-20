@@ -1,14 +1,16 @@
 ---
-pid: LLE2
+pid: lle2
 title: Together
 location_transcription: LOVE Park, near LOVE Statue
+coordinates: "[-75.165449621149, 39.953972540334]"
 zipcode: '19460'
-outside_phl: 'Phoenixville PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Phoenixville PA '
 age: '69'
 age_range: 60-69
 instagram: 
-image_file_name: LLE_2.jpg
+image_file_name: lle_2.jpg
 proposal_transcription: From many, one - again
 topic: Inclusivity,Unity
 topic_summary: 0, 0

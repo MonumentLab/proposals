@@ -1,16 +1,18 @@
 ---
-pid: LLP95
+pid: llp95
 title: Stay Strong
 location_transcription: in Philadelphia
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: '19120'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Logan,Olney
+outside_phl: 
 age: '13'
 age_range: 13-19
 instagram: 
-image_file_name: LLP_95.jpg
+image_file_name: llp_95.jpg
 proposal_transcription: Stay strong - three fists
-topic: Art,Social Justice,Freedom
+topic: Social Justice,Freedom
 topic_summary: 0, 0, 0
 type: Mural
 keywords_other: 

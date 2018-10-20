@@ -1,17 +1,19 @@
 ---
-pid: LLA16
+pid: lla16
 title: Circle of Love
 location_transcription: Anywhere children play/ playgound
+coordinates: "[-75.215597, 39.966201]"
 zipcode: '19808'
-outside_phl: 'Wilmington DE '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Wilmington DE '
 age: '46'
 age_range: 40-49
 instagram: 
-image_file_name: LLA_16.jpg
+image_file_name: lla_16.jpg
 proposal_transcription: Children of different religions in traditional clothing holding
   hands/playing in a circle.
-topic: Culture,Inclusivity,Religion,Unity,Youth
+topic: Inclusivity,Religion,Unity,Youth
 topic_summary: 0, 0, 0, 0, 0
 type: Other No Form
 keywords_other: Religions

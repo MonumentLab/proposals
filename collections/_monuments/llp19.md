@@ -1,14 +1,16 @@
 ---
-pid: LLP19
+pid: llp19
 title: Sticks and Stones
 location_transcription: Near crumbling child monument
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: '19134'
-outside_phl: 
+gen_neighborhood: River Wards
 neighborhood: Port Richmond
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_19.jpg
+image_file_name: llp_19.jpg
 proposal_transcription: Two children holding hands and standing in a circle and smiling.  One
   child one color - another a different color to show that everyone is equal.  One
   of the children is a little crumbled to represent crumbling child monument, the

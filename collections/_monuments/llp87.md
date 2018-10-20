@@ -1,14 +1,16 @@
 ---
-pid: LLP87
+pid: llp87
 title: Peace
 location_transcription: Feltonville
+coordinates: "[-75.125869373313, 40.021842629117]"
 zipcode: '19120'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Logan,Olney
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_87.jpg
+image_file_name: llp_87.jpg
 proposal_transcription: Peace sign
 topic: Unity,Uplifting,Love
 topic_summary: 0, 0, 0

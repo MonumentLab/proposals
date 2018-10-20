@@ -1,14 +1,16 @@
 ---
-pid: LLD12
+pid: lld12
 title: Dill-a-delphia
 location_transcription: Every goddamn store, like out front
+coordinates: "[-75.134793670222, 39.969502557069]"
 zipcode: '19341'
-outside_phl: 'Exton PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Exton PA '
 age: '36'
 age_range: 30-39
 instagram: 
-image_file_name: LLD_12.jpg
+image_file_name: lld_12.jpg
 proposal_transcription: A tribute to all those pickles barrels that no longer are
   easily found
 topic: Food

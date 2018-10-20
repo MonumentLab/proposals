@@ -1,14 +1,16 @@
 ---
-pid: LLG7
+pid: llg7
 title: Streets
 location_transcription: 
+coordinates: "[-75.1733844, 40.0328163]"
 zipcode: '19103'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Rittenhouse Square,Avenue of The Arts,Logan Square,Fitler Square
+outside_phl: 
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_7.jpg
+image_file_name: llg_7.jpg
 proposal_transcription: |-
   put a locust tree there, I didn't have time to draw it ->
 
@@ -17,7 +19,7 @@ proposal_transcription: |-
   [Locust] [Walnut] [Spruce] [Chestnut] [Pine]
 
   pine, locust, comford, cedar, [???], mulberry
-topic: Environment,Philadelphia
+topic: Environment
 topic_summary: 0, 0
 type: Tree,Sculpture Statue
 keywords_other: trees, streets, downtown philadelphia

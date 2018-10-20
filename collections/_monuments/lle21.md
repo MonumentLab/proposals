@@ -1,14 +1,16 @@
 ---
-pid: LLE21
+pid: lle21
 title: We Mourn Together
 location_transcription: Somwhere where it is needed
+coordinates: "[-75.163612301682, 39.955214468151]"
 zipcode: '19122'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Yorktown,Old Kensington,Jinogi
+outside_phl: 
 age: '10'
 age_range: 6-13
 instagram: 
-image_file_name: LLE_21.jpg
+image_file_name: lle_21.jpg
 proposal_transcription: people can leave flowers for their own or others passed loved
   ones.
 topic: Unknown

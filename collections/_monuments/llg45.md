@@ -1,14 +1,16 @@
 ---
-pid: LLG45
+pid: llg45
 title: Homeless dogs monument
 location_transcription: 15th + chestnut
+coordinates: "[-75.165558304568, 39.951120958063]"
 zipcode: '19130'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Art Museum,Francisville
+outside_phl: 
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_45.jpg
+image_file_name: llg_45.jpg
 proposal_transcription: A monument to the dogs that help homeless people with their
   mental health and to get them money from other people
 topic: Animals,Health,Inequality

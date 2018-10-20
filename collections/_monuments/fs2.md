@@ -1,14 +1,16 @@
 ---
-pid: FS2
+pid: fs2
 title: Flower Monument
 location_transcription: 
+coordinates: "[-75.150443325972, 39.955415137209]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '9'
 age_range: 6-13
 instagram: 
-image_file_name: FS_2.jpg
+image_file_name: fs_2.jpg
 proposal_transcription: I want to put my flower in Franklin Square Park. I want my
   flower to be big. For kids to be happy with the living things.
 topic: Environment,Uplifting,Youth

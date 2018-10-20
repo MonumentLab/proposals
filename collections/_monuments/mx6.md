@@ -1,14 +1,16 @@
 ---
-pid: MX6
+pid: mx6
 title: Original People
 location_transcription: replace the Columbus monument @ Penn's Landing
+coordinates: "[-75.141562531921, 39.944489331421]"
 zipcode: '19143'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: University City
+outside_phl: 
 age: '26'
 age_range: 20-29
 instagram: 
-image_file_name: MX_6.jpg
+image_file_name: mx_6.jpg
 proposal_transcription: 
 topic: History,Native Americans
 topic_summary: 0, 0

@@ -1,14 +1,16 @@
 ---
-pid: LLA43
+pid: lla43
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.159396539663, 39.943444692202]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLA_43.jpg
+image_file_name: lla_43.jpg
 proposal_transcription: knowledge, understanding, of all people in everything
 topic: Inclusivity,Unity
 topic_summary: 0, 0

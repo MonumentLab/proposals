@@ -1,14 +1,16 @@
 ---
-pid: LLP79
+pid: llp79
 title: Peace
 location_transcription: Locust walk
+coordinates: "[-75.198533992504, 39.95243464784]"
 zipcode: '19134'
-outside_phl: 
+gen_neighborhood: River Wards
 neighborhood: Port Richmond
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_79.jpg
+image_file_name: llp_79.jpg
 proposal_transcription: I would have a monument that says //Peace// because peace
   matters in the world we live in today.
 topic: Brotherly Love,Unity,Love

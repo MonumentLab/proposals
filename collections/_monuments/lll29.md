@@ -1,18 +1,20 @@
 ---
-pid: LLL29
+pid: lll29
 title: Something different!
 location_transcription: Somewhere new!
+coordinates: 
 zipcode: '19147'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Queen Village,Bella Vista,Pennsport,Italian Market
+outside_phl: 
 age: '24'
 age_range: 20-29
 instagram: 
-image_file_name: LLL_29.jpg
+image_file_name: lll_29.jpg
 proposal_transcription: I would like to see a monument that is interactive, also in
   areas where there aren't normally monuments- in the far corners of the city-northeast,
   south Philly near airport, etc.
-topic: Philadelphia
+topic: 
 topic_summary: '0'
 type: Interactive
 keywords_other: 

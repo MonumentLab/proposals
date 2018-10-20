@@ -1,14 +1,16 @@
 ---
-pid: LLG52
+pid: llg52
 title: Philly Cheesesteak
 location_transcription: Dalessandro's
+coordinates: "[-75.206007845961, 40.029314970445]"
 zipcode: '19119'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Mount Airy
+outside_phl: 
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_52.jpg
+image_file_name: llg_52.jpg
 proposal_transcription: 
 topic: Food,Neighborhoods
 topic_summary: 0, 0

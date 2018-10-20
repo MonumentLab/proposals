@@ -1,14 +1,16 @@
 ---
-pid: LLP10
+pid: llp10
 title: Nyla
 location_transcription: 
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '2'
 age_range: "<6"
 instagram: 
-image_file_name: LLP_10.jpg
+image_file_name: llp_10.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

@@ -1,14 +1,16 @@
 ---
-pid: LLA5
+pid: lla5
 title: Untitled
 location_transcription: 
+coordinates: 
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLA_5.jpg
+image_file_name: lla_5.jpg
 proposal_transcription: Anything that honors Native American History
 topic: Native Americans
 topic_summary: '0'

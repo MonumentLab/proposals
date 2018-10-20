@@ -1,14 +1,16 @@
 ---
-pid: LLG39
+pid: llg39
 title: A cat
 location_transcription: South Philly
+coordinates: "[-75.172630558943, 39.915628393377]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '15'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_39.jpg
+image_file_name: llg_39.jpg
 proposal_transcription: 
 topic: Animals
 topic_summary: '0'

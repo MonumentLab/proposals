@@ -1,14 +1,16 @@
 ---
-pid: LLP12
+pid: llp12
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLP_12.jpg
+image_file_name: llp_12.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

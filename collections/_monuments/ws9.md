@@ -1,14 +1,16 @@
 ---
-pid: WS9
+pid: ws9
 title: WOP
 location_transcription: Washington Square Park
+coordinates: "[-75.151821981407, 39.947006270646]"
 zipcode: '19146'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Graduate Hospital,Naval Square,Southwest Center City
+outside_phl: 
 age: '21'
 age_range: 20-29
 instagram: 
-image_file_name: WS_9.jpg
+image_file_name: ws_9.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

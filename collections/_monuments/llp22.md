@@ -1,14 +1,16 @@
 ---
-pid: LLP22
+pid: llp22
 title: The Raised Fist
 location_transcription: Near the Rothman Cabin & the garden maze
+coordinates: "[-75.164666745101, 39.953010359548]"
 zipcode: '19006'
-outside_phl: 'Huntingdon Valley PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Huntingdon Valley PA '
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_22.jpg
+image_file_name: llp_22.jpg
 proposal_transcription: podium with a raised fist.  On the front would be a description
   about the two Olympian winners raised a black gloved fist.  Dates and names of winners
 topic: African Americans,Globalism,Social Justice

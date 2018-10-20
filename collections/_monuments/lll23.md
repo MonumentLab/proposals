@@ -1,14 +1,16 @@
 ---
-pid: LLL23
+pid: lll23
 title: Philly Alive
 location_transcription: easy access/a lot of foot traffic
+coordinates: "[-75.163620013033, 39.955263813053]"
 zipcode: '19343'
-outside_phl: 'Glenmoore PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Glenmoore PA '
 age: '62'
 age_range: 60-69
 instagram: 
-image_file_name: LLL_23.jpg
+image_file_name: lll_23.jpg
 proposal_transcription: |-
   1. Something timeless (archet y pe)
   2. Something that changes-stays relevant

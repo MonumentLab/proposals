@@ -1,16 +1,18 @@
 ---
-pid: LS7
+pid: ls7
 title: Black first Jesse Jackson
 location_transcription: Across from City Hill
+coordinates: "[-75.165470904888, 39.952829422105]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LS_7.jpg
+image_file_name: ls_7.jpg
 proposal_transcription: two today
-topic: African Americans,Figure,History
+topic: African Americans,Person,History
 topic_summary: 0, 0, 0
 type: Sculpture Statue
 keywords_other: 

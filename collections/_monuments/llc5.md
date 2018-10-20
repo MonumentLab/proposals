@@ -1,14 +1,16 @@
 ---
-pid: LLC5
+pid: llc5
 title: Bad dog
 location_transcription: A park
+coordinates: "[-75.18202466074, 39.948651278923]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLC_5.jpg
+image_file_name: llc_5.jpg
 proposal_transcription: I chose this to represent animal cruelty to many animals get
   abused a year.
 topic: Animals

@@ -1,17 +1,19 @@
 ---
-pid: LLL17
+pid: lll17
 title: "?"
 location_transcription: through neighborhood
+coordinates: "[-75.163705843722, 39.955247364755]"
 zipcode: '18901'
-outside_phl: 'Doylestown PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Doylestown PA '
 age: '59'
 age_range: 50-59
 instagram: 
-image_file_name: LLL_17.jpg
+image_file_name: lll_17.jpg
 proposal_transcription: A path of stoops connecting the neighbors and on the stoops.-
   art illustrating the neighborhood and the people of the area. Very alive monument.
-topic: Neighborhoods,Philadelphia
+topic: Neighborhoods
 topic_summary: 0, 0
 type: Walkway,Other No Form
 keywords_other: 

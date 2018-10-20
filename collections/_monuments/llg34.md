@@ -1,14 +1,16 @@
 ---
-pid: LLG34
+pid: llg34
 title: Oof.
 location_transcription: Everywhere in germantown
+coordinates: "[-75.171911726926, 40.037472258345]"
 zipcode: '19422'
-outside_phl: 'Blue Bell PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Blue Bell PA '
 age: '14'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_34.jpg
+image_file_name: llg_34.jpg
 proposal_transcription: OOF
 topic: Pop Culture
 topic_summary: '0'

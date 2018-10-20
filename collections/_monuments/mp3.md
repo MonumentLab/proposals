@@ -1,16 +1,18 @@
 ---
-pid: MP3
+pid: mp3
 title: The Fresh Prince
 location_transcription: North Philly
+coordinates: "[-75.154960165952, 39.99438311091]"
 zipcode: '19145'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Passyunk
+outside_phl: 
 age: '19'
 age_range: 13-19
 instagram: 
-image_file_name: MP_3.jpg
+image_file_name: mp_3.jpg
 proposal_transcription: 
-topic: Figure,Philadelphia
+topic: Person
 topic_summary: 0, 0
 type: Other No Form
 keywords_other: 

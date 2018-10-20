@@ -1,14 +1,16 @@
 ---
-pid: LLB34
+pid: llb34
 title: Wild Goose Chase
 location_transcription: Animale Shelter
+coordinates: "[-75.162735, 39.944313]"
 zipcode: NJ08085
-outside_phl: Swedesboro NJ
+gen_neighborhood: 
 neighborhood: 
+outside_phl: Swedesboro NJ
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLB_34.jpg
+image_file_name: llb_34.jpg
 proposal_transcription: 
 topic: Animals
 topic_summary: '0'

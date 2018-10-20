@@ -1,14 +1,16 @@
 ---
-pid: LLG88
+pid: llg88
 title: Fly eagles fly
 location_transcription: 
+coordinates: "[-75.172145809909, 40.032718278126]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_88.jpg
+image_file_name: llg_88.jpg
 proposal_transcription: Eagle/football hybrid
 topic: Animals,Sports
 topic_summary: 0, 0

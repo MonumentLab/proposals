@@ -1,14 +1,16 @@
 ---
-pid: LLL20
+pid: lll20
 title: Tree of Change
 location_transcription: 
+coordinates: "[-75.163770216738, 39.955214468151]"
 zipcode: '19050'
-outside_phl: 'Lansdowne PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Lansdowne PA '
 age: '32'
 age_range: 30-39
 instagram: 
-image_file_name: LLL_20.jpg
+image_file_name: lll_20.jpg
 proposal_transcription: |-
   HOPE
 

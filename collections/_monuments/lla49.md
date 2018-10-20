@@ -1,14 +1,16 @@
 ---
-pid: LLA49
+pid: lla49
 title: Jermaine Allen
 location_transcription: Every State
+coordinates: 
 zipcode: '11206'
-outside_phl: 'Brooklyn NY '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Brooklyn NY '
 age: '27'
 age_range: 20-29
 instagram: 
-image_file_name: LLA_49.jpg
+image_file_name: lla_49.jpg
 proposal_transcription: I want my monument to be a business to give people the help
   they need to do for themself
 topic: Business

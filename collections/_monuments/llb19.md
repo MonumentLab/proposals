@@ -1,14 +1,16 @@
 ---
-pid: LLB19
+pid: llb19
 title: John Coltrane
 location_transcription: Coltrane House (33rd + Oxford)
+coordinates: "[-75.188735, 39.980309]"
 zipcode: '19147'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Queen Village,Bella Vista,Pennsport,Italian Market
+outside_phl: 
 age: '25'
 age_range: 20-29
 instagram: 
-image_file_name: LLB_19.jpg
+image_file_name: llb_19.jpg
 proposal_transcription: Sculpture (brass) in front of or near the Coltrane House,
   thinking a bust of Coltrane similar to the one of Charlie Parker in Kansas City.
   Coltrane's face was so expressive. This would be to commemorate Coltrane's time
@@ -17,7 +19,7 @@ proposal_transcription: Sculpture (brass) in front of or near the Coltrane House
   in the context of Philly's history. The Coltrane Fest is great, but his home (a
   historical landmark) needs more love and attention. I think a sculpture could be
   helpful and timeless.
-topic: Figure,Music
+topic: Person,Music
 topic_summary: 0, 0
 type: Sculpture Statue,Historical Marker
 keywords_other: Coltrane

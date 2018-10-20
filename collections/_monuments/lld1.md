@@ -1,14 +1,16 @@
 ---
-pid: LLD1
+pid: lld1
 title: "[Untitled]"
 location_transcription: Anywhere
+coordinates: "[-75.134632737681, 39.969445]"
 zipcode: '19125'
-outside_phl: 
+gen_neighborhood: River Wards
 neighborhood: Fishtown,Kensington
+outside_phl: 
 age: '24'
 age_range: 20-29
 instagram: 
-image_file_name: LLD_1.jpg
+image_file_name: lld_1.jpg
 proposal_transcription: words hidden in letters
 topic: Unknown
 topic_summary: '0'

@@ -1,14 +1,16 @@
 ---
-pid: LLB52
+pid: llb52
 title: Seating Unit
 location_transcription: City Ave, Kelly Drive
+coordinates: "[-75.199506293272, 39.981016991753]"
 zipcode: '19128'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Roxborough
+outside_phl: 
 age: '39'
 age_range: 30-39
 instagram: 
-image_file_name: LLB_52.jpg
+image_file_name: llb_52.jpg
 proposal_transcription: 
 topic: Technology
 topic_summary: '0'

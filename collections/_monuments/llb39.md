@@ -1,14 +1,16 @@
 ---
-pid: LLB39
+pid: llb39
 title: Deep //Phallic//
 location_transcription: Gayborhood
+coordinates: "[-75.163951, 39.949317]"
 zipcode: NJ08021
-outside_phl: Clementon NJ
+gen_neighborhood: 
 neighborhood: 
+outside_phl: Clementon NJ
 age: 
 age_range: 
 instagram: 
-image_file_name: LLB_39.jpg
+image_file_name: llb_39.jpg
 proposal_transcription: 
 topic: Unknown
 topic_summary: '0'

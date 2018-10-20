@@ -1,14 +1,16 @@
 ---
-pid: CH8
+pid: ch8
 title: The Kids thought
 location_transcription: somewhere were it can be seen and admire.
+coordinates: "[-75.180996903206, 39.953731911913]"
 zipcode: '19120'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Logan,Olney
+outside_phl: 
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: CH_8.jpg
+image_file_name: ch_8.jpg
 proposal_transcription: So the kids thoughts is what is being said in the tittle,
   in other words a child mine can tend to always be a masterpiece in which is changed
   by what they see and what they hear. Their thoughts and life changed and force to

@@ -1,14 +1,16 @@
 ---
-pid: LLP33
+pid: llp33
 title: Heads & Tails
 location_transcription: City Hall
+coordinates: "[-75.164671774244, 39.952451096813]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_33.jpg
+image_file_name: llp_33.jpg
 proposal_transcription: 
 topic: Globalism
 topic_summary: '0'

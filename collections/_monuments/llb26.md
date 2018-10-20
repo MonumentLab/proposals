@@ -1,14 +1,16 @@
 ---
-pid: LLB26
+pid: llb26
 title: Melting Pot
 location_transcription: Independence Mall
+coordinates: "[-75.149978, 39.952278]"
 zipcode: '19103'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Rittenhouse Square,Avenue of The Arts,Logan Square,Fitler Square
+outside_phl: 
 age: '68'
 age_range: 60-69
 instagram: 
-image_file_name: LLB_26.jpg
+image_file_name: llb_26.jpg
 proposal_transcription: |-
   Grouping of Races:
   Native American
@@ -17,7 +19,7 @@ proposal_transcription: |-
   Asian
   Latino
   Asian Indian
-topic: African Americans,Hispanic,Unity,Race Ethnicity
+topic: African Americans,Latinx,Unity,Race Ethnicity
 topic_summary: 0, 0, 0, 0
 type: Other No Form
 keywords_other: melting pot

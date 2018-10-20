@@ -1,15 +1,17 @@
 ---
-pid: LLE40
+pid: lle40
 title: Moving Forward
 location_transcription: In the middle of a large, overgrown field (like the two at
   Mascher + Girad)
+coordinates: "[-75.137557776304, 39.969350306597]"
 zipcode: '19122'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Yorktown,Old Kensington,Jinogi
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLE_40.jpg
+image_file_name: lle_40.jpg
 proposal_transcription: 
 topic: Uplifting
 topic_summary: '0'

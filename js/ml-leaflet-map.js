@@ -35,7 +35,7 @@ $.getJSON('/js/facets.json', function(d){
           let currFacetValue = facets[d][i];
           let currFacet = $('#facets > .input-group[data-filter-group=' + d + '] select');
           currFacet.append("<option value=" 
-            + currFacetValue.replace(/ /g,'') + ">" 
+            + currFacetValue.toLowerCase() + ">" 
             + currFacetValue.toUpperCase() + "</option>");
         }
     });
@@ -157,7 +157,7 @@ $.getJSON('/js/facets.json', function(d){
     //----------------------------MONUMENTS-------------------------------------
     //get monument points from geojson array
 
-$.getJSON('/ml-geo-cleaned.json', function(data){
+$.getJSON('/js/monuments-geo.json', function(data){
     monuments = data;
     updateMap();
 
@@ -189,10 +189,13 @@ function updateMap() {
         keys.forEach(function(facet){
             if (currFilter[facet] == '*' ) { currFilter[facet] = []; }
             if (currFilter[facet].length) {
-                currMonuments.features = currMonuments.features.filter( d => 
-                     d.properties[facet].toLowerCase().replace(/ /g,'').indexOf(
+
+                currMonuments.features = currMonuments.features.filter( d =>
+                    d.properties[facet] &&
+                    d.properties[facet].length &&
+                    d.properties[facet].toLowerCase().indexOf(
                             currFilter[facet]
-                        ) > -1 && d.properties[facet].length
+                        ) > -1
                 );
             }
                 
@@ -226,11 +229,11 @@ function updateMap() {
 // ------------------------------POP-UPS-------------------------------------
 function onEachFeature(feature, layer) {
 
-    var html = "<a href='/monuments/" + feature.properties.researchID.toLowerCase() +
-        "'><img src='/assets/monuments/thumbs/" + feature.properties.researchID.toUpperCase().replace(/([A-Z]+)/g,'$1_') + ".jpg'>";
+    var html = "<a href='/monuments/" + feature.properties.pid +
+        "'><img src='/assets/monuments/thumbs/" + feature.properties.image_file_name + "'>";
 
     var agePopup = "", neighborhoodPopup = "", socialMediaPopup = "";
-    if (feature.properties && feature.properties.name && feature.properties.ref) {
+    if (feature.properties && feature.properties.title) {
         if (feature.properties.age){
             var agePopup =  "<strong>"+"Age "+"</strong>" + feature.properties.age + "<br/>";
         }
@@ -240,8 +243,8 @@ function onEachFeature(feature, layer) {
         if (feature.properties.typeArray) {
             var type = feature.properties.typeArray + "<br/>";
         }
-        if (feature.properties.neighborhood){
-            var zipcodePopup =  "<strong>"+"From "+"</strong>" + feature.properties.neighborhood.split(',')[0] + "<br/>";
+        if (feature.properties.gen_neighborhood){
+            var neighborhoodPopup =  "<strong>"+"From "+"</strong>" + feature.properties.gen_neighborhood + "<br/>";
         }
         if (feature.properties.twitter) {
             socialMediaPopup = socialMediaPopup + "<a href='https://twitter.com/" + feature.properties.twitter.replace(/[@]/g,"") +
@@ -255,7 +258,8 @@ function onEachFeature(feature, layer) {
             socialMediaPopup = socialMediaPopup + "<a href='https://facebook.com/" + feature.properties.facebook.replace(/[@]/g,"") +
             "'><i class='fab fa-facebook'></i></a>";
         }
-        layer.bindPopup(html + "<br /><span><strong>" + feature.properties.name + "</strong><br />" + "</a>"
-            + agePopup + zipcodePopup + "</span>" + socialMediaPopup, {autoClose: false});
+
+        layer.bindPopup(html + "<br /><span><strong>" + feature.properties.title + "</strong><br />" + "</a>"
+            + agePopup + neighborhoodPopup + "</span>" + socialMediaPopup, {autoClose: false});
     }
 };

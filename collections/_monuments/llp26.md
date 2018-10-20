@@ -1,14 +1,16 @@
 ---
-pid: LLP26
+pid: llp26
 title: United
 location_transcription: 
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: '19143'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: University City
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_26.jpg
+image_file_name: llp_26.jpg
 proposal_transcription: |-
   -Globe head
   -each limb has a different skin tone

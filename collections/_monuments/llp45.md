@@ -1,14 +1,16 @@
 ---
-pid: LLP45
+pid: llp45
 title: Barack Obama
 location_transcription: Near City Hall
+coordinates: "[-75.162937055563, 39.952253708874]"
 zipcode: '19153'
-outside_phl: 
+gen_neighborhood: Southwest Philadelphia
 neighborhood: Eastwick
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_45.jpg
+image_file_name: llp_45.jpg
 proposal_transcription: There  should be a monument of President Obama posing with
   his index finger in the air, as if he were  to say something.  Obama was a big impact
   on the U.S. and he should be remembered for his amazing actions..

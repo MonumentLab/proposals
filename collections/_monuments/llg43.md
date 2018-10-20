@@ -1,14 +1,16 @@
 ---
-pid: LLG43
+pid: llg43
 title: "[Untitled]"
 location_transcription: 
+coordinates: 
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLG_43.jpg
+image_file_name: llg_43.jpg
 proposal_transcription: People think its a mirror buts its a glass plane with an actor
   of the same age as the person looking in the glass
 topic: Unknown

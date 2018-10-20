@@ -1,14 +1,16 @@
 ---
-pid: LLP48
+pid: llp48
 title: Honor to music
 location_transcription: 
+coordinates: "[-75.163330803977, 39.955229546098]"
 zipcode: '19128'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Roxborough
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_48.jpg
+image_file_name: llp_48.jpg
 proposal_transcription: |-
   columns holding notes up ->
 

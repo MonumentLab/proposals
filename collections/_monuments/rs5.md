@@ -1,16 +1,18 @@
 ---
-pid: RS5
+pid: rs5
 title: Jerry Garcia
 location_transcription: 
+coordinates: "[-75.172016333079, 39.949292821429]"
 zipcode: '19301'
-outside_phl: 'Paoli PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Paoli PA '
 age: '56'
 age_range: 50-59
 instagram: 
-image_file_name: RS_5.jpg
+image_file_name: rs_5.jpg
 proposal_transcription: Benn to Philadelphia 63 times in concert !!
-topic: Figure,Music
+topic: Person,Music
 topic_summary: 0, 0
 type: Other No Form
 keywords_other: 

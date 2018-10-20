@@ -1,16 +1,18 @@
 ---
-pid: LLD4
+pid: lld4
 title: ART
 location_transcription: 
+coordinates: "[-75.173033896123, 39.96031325312]"
 zipcode: '19118'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Chestnut Hill
+outside_phl: 
 age: '26'
 age_range: 20-29
 instagram: 
-image_file_name: LLD_4.jpg
+image_file_name: lld_4.jpg
 proposal_transcription: ART
-topic: Art
+topic: 
 topic_summary: '0'
 type: Other No Form
 keywords_other: 

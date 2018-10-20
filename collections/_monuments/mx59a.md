@@ -1,14 +1,16 @@
 ---
-pid: MX59a
+pid: mx59a
 title: MX59 side b
 location_transcription: 
+coordinates: 
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '17'
 age_range: 13-19
 instagram: 
-image_file_name: MX_59.jpg
+image_file_name: mx_59.jpg
 proposal_transcription: |-
   SSOM
 

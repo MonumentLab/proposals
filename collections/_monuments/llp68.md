@@ -1,14 +1,16 @@
 ---
-pid: LLP68
+pid: llp68
 title: The Willow Tree
 location_transcription: City Hall
+coordinates: "[-75.162907551263, 39.95208921849]"
 zipcode: '19116'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Somerton,Bustleton
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_68.jpg
+image_file_name: llp_68.jpg
 proposal_transcription: save the environment
 topic: Environment,Sustainability
 topic_summary: 0, 0

@@ -6,7 +6,7 @@ permalink: /gallery/
 collection: monuments
 facet_by:
     - age_range
-    - neighborhood
+    - gen_neighborhood
     - topic
     - keywords_other
     - type

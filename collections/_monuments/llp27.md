@@ -1,14 +1,16 @@
 ---
-pid: LLP27
+pid: llp27
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.1656784, 39.9556166]"
 zipcode: '19147'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Queen Village,Bella Vista,Pennsport,Italian Market
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_27.jpg
+image_file_name: llp_27.jpg
 proposal_transcription: 
 topic: Environment,Sanitation
 topic_summary: 0, 0

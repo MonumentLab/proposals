@@ -1,14 +1,16 @@
 ---
-pid: LLL30
+pid: lll30
 title: "[Untitled]"
 location_transcription: 
+coordinates: 
 zipcode: '19148'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Whitman,Pennsport,South Philadelphia
+outside_phl: 
 age: '40'
 age_range: 40-49
 instagram: 
-image_file_name: LLL_30.jpg
+image_file_name: lll_30.jpg
 proposal_transcription: Create more open public space
 topic: Unknown
 topic_summary: '0'

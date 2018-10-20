@@ -42,13 +42,14 @@ ml:
     keywords_other: "Other Keywords"
     credit: "Credit"
     image_labels: "Image Labels"
-    zipcode: "Contributor's Zipcode"
-    neighborhood: "Contributor's Neighborhood"
-    age: "Contributor's Age"
-    age_range: "Contributor's Age Range"
-    instagram: "Contributor's Instagram"
-    twitter: "Contributor's Twitter"
-    facebook: "Contributor's Facebook"
+    zipcode: "Contributor&#8217;s Zipcode"
+    gen_neighborhood: "Contributor&#8217;s Neighborhood"
+    outside_phl: "Contributor's Location"
+    age: "Contributor&#8217;s Age"
+    age_range: "Contributor&#8217;s Age Range"
+    instagram: "Contributor&#8217;s Instagram"
+    twitter: "Contributor&#8217;s Twitter"
+    facebook: "Contributor&#8217;s Facebook"
   item_fields:
     - pid
     - title
@@ -58,8 +59,8 @@ ml:
     - type
     - keywords_other
     - credit
-    - image_labels
-    - zipcode
+    - gen_neighborhood
+    - outside_phl
     - age
     - instagram
     - twitter
@@ -73,8 +74,7 @@ collections:
     layout: item-page
     lunr_index:
       content: false
-      # fields: [pid,resource_id,title,location_transcription,zipcode,age,age_range,instagram,image_file_name,proposal_transcription,topic,topic_summary,type,keywords_ther,credit,image_labels,twitter,facebook,curate,county]
-      fields: [pid,title,location_transcription,zipcode,neighborhood,age,age_range,instagram,image_file_name,proposal_transcription,topic,topic_summary,type,keywords_other,credit,image_labels,twitter,facebook]
+      fields: [pid,title,location_transcription,zipcode,gen_neighborhood,outside_phl,age,age_range,proposal_transcription,topic,type,keywords_other,credit,image_file_name]
     iiif:
       label: title
 

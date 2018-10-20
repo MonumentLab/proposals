@@ -1,18 +1,20 @@
 ---
-pid: LLB62
+pid: llb62
 title: Mythical Crispin Antipedes
 location_transcription: South Philly
+coordinates: "[-75.2080495, 39.9149572]"
 zipcode: '19123'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Northern Liberties,Loft District
+outside_phl: 
 age: '61'
 age_range: 60-69
 instagram: 
-image_file_name: LLB_62.jpg
+image_file_name: llb_62.jpg
 proposal_transcription: |-
   Specific traditional designs of two cultures combined.
   Design: Vietnamese/ Sicilian
-topic: Animals,Culture,Unity
+topic: Animals,Unity
 topic_summary: 0, 0, 0
 type: Other No Form
 keywords_other: 

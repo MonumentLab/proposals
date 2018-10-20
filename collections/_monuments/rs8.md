@@ -1,14 +1,16 @@
 ---
-pid: RS8
+pid: rs8
 title: Sarah Mapps Douglass; Mineral Cabinet
 location_transcription: Site of family home ? (Historically, mother was on Arch St.)
+coordinates: "[-75.1654093, 39.9544135]"
 zipcode: '19103'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Rittenhouse Square,Avenue of The Arts,Logan Square,Fitler Square
+outside_phl: 
 age: '36'
 age_range: 30-39
 instagram: 
-image_file_name: RS_8.jpg
+image_file_name: rs_8.jpg
 proposal_transcription: Piggybacking on what //If They Should Ask// is doing - I love
   that Sarah Mapps Douglass is named on the pedestal - We have no image of her (that
   I know of) but it would be cool to have her mineral cabinet (which she curated for

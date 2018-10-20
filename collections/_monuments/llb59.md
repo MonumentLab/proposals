@@ -1,14 +1,16 @@
 ---
-pid: LLB59
+pid: llb59
 title: Rizzo
 location_transcription: Keep it there
+coordinates: "[-75.164272572189, 39.953715029042]"
 zipcode: '19103'
-outside_phl: 
+gen_neighborhood: Center City
 neighborhood: Rittenhouse Square,Avenue of The Arts,Logan Square,Fitler Square
+outside_phl: 
 age: '57'
 age_range: 50-59
 instagram: 
-image_file_name: LLB_59.jpg
+image_file_name: llb_59.jpg
 proposal_transcription: 
 topic: Politics
 topic_summary: '0'

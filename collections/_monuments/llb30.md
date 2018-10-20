@@ -1,14 +1,16 @@
 ---
-pid: LLB30
+pid: llb30
 title: Full Circle
 location_transcription: 1 on East Side, 1 on West Side
+coordinates: "[-75.173075135087, 39.960527064829]"
 zipcode: '19130'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Art Museum,Francisville
+outside_phl: 
 age: '30'
 age_range: 30-39
 instagram: 
-image_file_name: LLB_30.jpg
+image_file_name: llb_30.jpg
 proposal_transcription: |-
   Location 1: Screen with speakers shaped like half of a circle.
 

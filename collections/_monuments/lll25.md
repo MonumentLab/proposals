@@ -1,18 +1,20 @@
 ---
-pid: LLL25
+pid: lll25
 title: We the People
 location_transcription: Anywhere
+coordinates: 
 zipcode: '19143'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: University City
+outside_phl: 
 age: '40'
 age_range: 40-49
 instagram: 
-image_file_name: LLL_25.jpg
+image_file_name: lll_25.jpg
 proposal_transcription: Monument that flashes pictures of Philadelphians on the street
   from all walks of life highlighting the strength of our city is in our diversity.
   Also gives as a chance to briefly highlight those who aren't in the spotlight.
-topic: Philadelphia,Race Ethnicity
+topic: Race Ethnicity
 topic_summary: 0, 0
 type: Street,Projection,Image,Film
 keywords_other: 

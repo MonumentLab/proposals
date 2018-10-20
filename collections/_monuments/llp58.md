@@ -1,14 +1,16 @@
 ---
-pid: LLP58
+pid: llp58
 title: Flipping the water
 location_transcription: In Seaworld
+coordinates: "[-75.16366527531, 39.955247364756]"
 zipcode: '19115'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Bustleton,Somerton
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_58.jpg
+image_file_name: llp_58.jpg
 proposal_transcription: monument to Sea World.  A person with sea creatures around
   her/him.
 topic: Animals,Education

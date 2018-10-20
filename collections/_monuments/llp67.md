@@ -1,14 +1,16 @@
 ---
-pid: LLP67
+pid: llp67
 title: Reset to a happy monument
 location_transcription: 
+coordinates: "[-75.163600902294, 39.955230916455]"
 zipcode: '19131'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: Wynnefield
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_67.jpg
+image_file_name: llp_67.jpg
 proposal_transcription: Buttons you can actually press to make you happy.
 topic: Health,Love
 topic_summary: 0, 0

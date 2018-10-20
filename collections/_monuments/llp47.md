@@ -1,14 +1,16 @@
 ---
-pid: LLP47
+pid: llp47
 title: Honor of Roy Halladay
 location_transcription: In front of Citizens Bank Park
+coordinates: "[-75.164974193309, 39.904304474946]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLP_47.jpg
+image_file_name: llp_47.jpg
 proposal_transcription: In Honor of Roy Holiday throwing a baseball
 topic: History,Sports
 topic_summary: 0, 0

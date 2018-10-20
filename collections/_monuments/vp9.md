@@ -1,14 +1,16 @@
 ---
-pid: VP9
+pid: vp9
 title: Freedom
 location_transcription: Corner of Morris + Chelten Ave. on long black wall
+coordinates: "[-75.1814036, 40.0292213]"
 zipcode: '19144'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Germantown
+outside_phl: 
 age: '59'
 age_range: 50-59
 instagram: 
-image_file_name: VP_9.jpg
+image_file_name: vp_9.jpg
 proposal_transcription: 
 topic: Family
 topic_summary: '0'

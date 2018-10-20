@@ -1,14 +1,16 @@
 ---
-pid: LLB37
+pid: llb37
 title: Tower of Peace
 location_transcription: Kelly Drive
+coordinates: "[-75.196392, 39.9928]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLB_37.jpg
+image_file_name: llb_37.jpg
 proposal_transcription: Something on the scale of the statue of liberty on Kelly Drive
   (Statue in Water)
 topic: Uplifting

@@ -1,14 +1,16 @@
 ---
-pid: LLD19
+pid: lld19
 title: What Could Disappear
 location_transcription: Fishtown - Penn Treaty
+coordinates: "[-75.128940056295, 39.965872140275]"
 zipcode: '19122'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Yorktown,Old Kensington,Jinogi
+outside_phl: 
 age: '39'
 age_range: 30-39
 instagram: 
-image_file_name: LLD_19.jpg
+image_file_name: lld_19.jpg
 proposal_transcription: Make a ton and throw into water tank
 topic: Food
 topic_summary: '0'

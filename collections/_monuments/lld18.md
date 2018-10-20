@@ -1,16 +1,18 @@
 ---
-pid: LLD18
+pid: lld18
 title: The Pence Paper Doll
 location_transcription: The Gayborhood
+coordinates: "[-75.161916475028, 39.948272930522]"
 zipcode: '19125'
-outside_phl: 
+gen_neighborhood: River Wards
 neighborhood: Fishtown,Kensington
+outside_phl: 
 age: '25'
 age_range: 20-29
 instagram: 
-image_file_name: LLD_18.jpg
+image_file_name: lld_18.jpg
 proposal_transcription: Penn Dress-Up Statue
-topic: Figure,Politics
+topic: Person,Politics
 topic_summary: 0, 0
 type: Other No Form
 keywords_other: 

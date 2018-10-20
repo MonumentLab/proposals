@@ -1,14 +1,16 @@
 ---
-pid: LLP31
+pid: llp31
 title: Blossom
 location_transcription: In a garden
+coordinates: "[-75.148933912848, 39.946841767642]"
 zipcode: '19129'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: East Falls
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_31.jpg
+image_file_name: llp_31.jpg
 proposal_transcription: It would be different seeds blossoming into different unique
   flowers to show that we are all different but still that same.
 topic: Inclusivity,Unity

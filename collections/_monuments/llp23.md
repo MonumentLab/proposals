@@ -1,14 +1,16 @@
 ---
-pid: LLP23
+pid: llp23
 title: Perseverance
 location_transcription: Center City
+coordinates: "[-75.164522241091, 39.952944564169]"
 zipcode: '19130'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Art Museum,Francisville
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_23.jpg
+image_file_name: llp_23.jpg
 proposal_transcription: Perseverance (preservation) picture of white rhino
 topic: Animals,Environment
 topic_summary: 0, 0

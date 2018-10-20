@@ -1,16 +1,18 @@
 ---
-pid: LLG25
+pid: llg25
 title: Stoop
 location_transcription: "?"
+coordinates: "[-75.1733844, 40.0328163]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLG_25.jpg
+image_file_name: llg_25.jpg
 proposal_transcription: 
-topic: Architecture,Culture,Neighborhoods,Philadelphia
+topic: Architecture,Neighborhoods
 topic_summary: 0, 0, 0, 0
 type: Sculpture Statue
 keywords_other: stoop, south philly

@@ -1,14 +1,16 @@
 ---
-pid: LLD3
+pid: lld3
 title: "[Untitled]"
 location_transcription: 
+coordinates: "[-75.134756119296, 39.969461444882]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLD_3.jpg
+image_file_name: lld_3.jpg
 proposal_transcription: 
 topic: Environment
 topic_summary: '0'

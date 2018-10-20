@@ -1,14 +1,16 @@
 ---
-pid: LLB16
+pid: llb16
 title: URR of Phila
 location_transcription: Near Will Still's house
+coordinates: "[-75.160915, 39.947167]"
 zipcode: '19135'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Tacony
+outside_phl: 
 age: '63'
 age_range: 60-69
 instagram: 
-image_file_name: LLB_16.jpg
+image_file_name: llb_16.jpg
 proposal_transcription: Include a map of Nat'l and Canadian Main Routes + Map of Local
   churches etc that are known to ferry fugitives (Mother Bethel & Campbell AME), Frankford
   Friends, Frankford Presbyterian, Wych House, (see Charles Blockson of Temple U.)

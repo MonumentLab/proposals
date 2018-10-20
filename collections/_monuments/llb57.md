@@ -1,14 +1,16 @@
 ---
-pid: LLB57
+pid: llb57
 title: Self-Reflection
 location_transcription: Any
+coordinates: "[-75.1750015, 39.9606433]"
 zipcode: '17901'
-outside_phl: 'Pottsville PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Pottsville PA '
 age: '13'
 age_range: 13-19
 instagram: 
-image_file_name: LLB_57.jpg
+image_file_name: llb_57.jpg
 proposal_transcription: |-
   //Do you like what you see behind the filters?//
   //It's your job to change it.//

@@ -1,14 +1,16 @@
 ---
-pid: LLB43
+pid: llb43
 title: It Starts With You
 location_transcription: 24th St & Berks St, 19121
+coordinates: "[-75.173446, 39.983804]"
 zipcode: '19121'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Brewerytown
+outside_phl: 
 age: '18'
 age_range: 13-19
 instagram: 
-image_file_name: LLB_43.jpg
+image_file_name: llb_43.jpg
 proposal_transcription: Essentially, something that is pristine yet powerful, real,
   and uplifting. I feel that beautifying an environment can in turn beautify the inhabitants'
   hearts and minds, and maybe empowers also.

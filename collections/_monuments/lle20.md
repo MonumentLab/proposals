@@ -1,14 +1,16 @@
 ---
-pid: LLE20
+pid: lle20
 title: For the People
 location_transcription: Anywhere deemed appropriate
+coordinates: "[-75.163457466515, 39.955127264005]"
 zipcode: '11238'
-outside_phl: 'Brooklyn NY '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Brooklyn NY '
 age: '17'
 age_range: 13-19
 instagram: 
-image_file_name: LLE_20.jpg
+image_file_name: lle_20.jpg
 proposal_transcription: |-
   Side
   - stairs of smooth stone

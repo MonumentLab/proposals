@@ -1,14 +1,16 @@
 ---
-pid: LLP28
+pid: llp28
 title: Life Between Death
 location_transcription: Ritenhouse square
+coordinates: "[-75.171992193197, 39.949391519742]"
 zipcode: '19146'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Graduate Hospital,Naval Square,Southwest Center City
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_28.jpg
+image_file_name: llp_28.jpg
 proposal_transcription: A flower in the middle of destruction and war of fire and
   ice clashing.
 topic: Unknown

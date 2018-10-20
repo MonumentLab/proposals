@@ -1,17 +1,19 @@
 ---
-pid: LLB74
+pid: llb74
 title: Reforest Philly
 location_transcription: 
+coordinates: "[-75.163541283391, 39.955186057067]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: 
 age_range: 
 instagram: 
-image_file_name: LLB_74.jpg
+image_file_name: llb_74.jpg
 proposal_transcription: Philadelphia could supplement its original tree plantings
   by reforesting its streets and open spaces under the direction of a Landscape Architect
-topic: Architecture,Environment,Philadelphia,Sustainability
+topic: Architecture,Environment,Sustainability
 topic_summary: 0, 0, 0, 0
 type: Space,Street
 keywords_other: reforestation, trees, open space

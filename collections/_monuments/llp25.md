@@ -1,14 +1,16 @@
 ---
-pid: LLP25
+pid: llp25
 title: Nathalia Sosa
 location_transcription: Juniata Park
+coordinates: "[-75.104226182436, 40.015027226237]"
 zipcode: '19124'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Juniata,Frankford,Feltonville
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_25.jpg
+image_file_name: llp_25.jpg
 proposal_transcription: It is a statue of me wearing a pretty dress with one of those
   trench coats and flats. It would be in a standing pose and have one of those cool
   things were the wind is blowing in your hair and clothes.

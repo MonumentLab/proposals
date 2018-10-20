@@ -1,14 +1,16 @@
 ---
-pid: LLB48
+pid: llb48
 title: The Beauty of Nature
 location_transcription: Fishtown
+coordinates: "[-75.130289207436, 39.973272324113]"
 zipcode: '19125'
-outside_phl: 
+gen_neighborhood: River Wards
 neighborhood: Fishtown,Kensington
+outside_phl: 
 age: '4'
 age_range: "<6"
 instagram: 
-image_file_name: LLB_48.jpg
+image_file_name: llb_48.jpg
 proposal_transcription: 
 topic: Environment
 topic_summary: '0'

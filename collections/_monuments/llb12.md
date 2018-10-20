@@ -1,14 +1,16 @@
 ---
-pid: LLB12
+pid: llb12
 title: Brave Struggle
 location_transcription: Near A Large Medical Center Such As CHOP
+coordinates: "[-75.193072, 39.949226]"
 zipcode: '19444'
-outside_phl: 'Lafayette Hill PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Lafayette Hill PA '
 age: '77'
 age_range: 70+
 instagram: 
-image_file_name: LLB_12.jpg
+image_file_name: llb_12.jpg
 proposal_transcription: My wife suffered from Parkinson's Disease. One of my best
   friends was born with cerebral palsy. Another was damaged by polio. All of them
   demonstrated uncommon valor. Such individual acts of bravery require public recognition

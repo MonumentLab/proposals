@@ -1,10 +1,12 @@
 ---
-pid: MX3
+pid: mx3
 title: "[Untitled]"
 location_transcription: 7th and Chestnut
+coordinates: "[-75.1545355, 39.9494264]"
 zipcode: '19139'
-outside_phl: 
+gen_neighborhood: West Philadelphia
 neighborhood: Walnut Hill
+outside_phl: 
 age: '62'
 age_range: 60-69
 instagram: 

@@ -1,15 +1,17 @@
 ---
-pid: LLG87
+pid: llg87
 title: Unity in a broken world
 location_transcription: I'm not familiar with locations in Philly - just somewhere
   easy to put it
+coordinates: "[-75.204554566865, 40.054621461959]"
 zipcode: '19038'
-outside_phl: 'Glenside PA '
+gen_neighborhood: 
 neighborhood: Glenside
+outside_phl: 'Glenside PA '
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_87.jpg
+image_file_name: llg_87.jpg
 proposal_transcription: |-
   Sphere with crack or divided into pieces with Earth painted on it & people holding hands around it.
 

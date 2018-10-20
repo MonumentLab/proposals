@@ -1,14 +1,16 @@
 ---
-pid: LLL22
+pid: lll22
 title: Teach/Dear Teacher
 location_transcription: City Hall, School District Building
+coordinates: "[-75.162559534644, 39.960938239314]"
 zipcode: '19123'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Northern Liberties,Loft District
+outside_phl: 
 age: '33'
 age_range: 30-39
 instagram: 
-image_file_name: LLL_22.jpg
+image_file_name: lll_22.jpg
 proposal_transcription: The goal of this monument would be to make an indelible statement
   about the vital role teachers play in supporting the well-being of our communities.  With
   all of the political disagreement over how to improve the quality of public education
@@ -18,7 +20,7 @@ proposal_transcription: The goal of this monument would be to make an indelible 
   the future + fortunes of our children + our city will always be connected to the
   efforts + compassion of our teachers.  The statue could be of a teacher reading
   a book surrounded by young children.
-topic: Education,Philadelphia
+topic: Education
 topic_summary: 0, 0
 type: Sculpture Statue
 keywords_other: Teacher, education, public education, school

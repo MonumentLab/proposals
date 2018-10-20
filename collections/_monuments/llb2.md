@@ -1,14 +1,16 @@
 ---
-pid: LLB2
+pid: llb2
 title: JAZZ/ROCK- JAROC
 location_transcription: North Philly
+coordinates: "[-75.150701, 40.008986]"
 zipcode: '19132'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Strawberry Mansion
+outside_phl: 
 age: '29'
 age_range: 20-29
 instagram: 
-image_file_name: LLB_2.jpg
+image_file_name: llb_2.jpg
 proposal_transcription: JAROC
 topic: Music
 topic_summary: '0'

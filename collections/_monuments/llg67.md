@@ -1,19 +1,21 @@
 ---
-pid: LLG67
+pid: llg67
 title: Hollywood (Philadelphia)
 location_transcription: Airport
+coordinates: "[-75.254800762911, 39.874811307679]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '15'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_67.jpg
+image_file_name: llg_67.jpg
 proposal_transcription: |-
   HOLLYWOOD
 
   (Welcome to Philadelphia)
-topic: Art,Philadelphia,Pop Culture
+topic: Pop Culture
 topic_summary: 0, 0, 0
 type: Sculpture Statue,Billboard
 keywords_other: hollywood, hollywood sign

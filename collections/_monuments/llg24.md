@@ -1,15 +1,17 @@
 ---
-pid: LLG24
+pid: llg24
 title: "[Untitled]"
 location_transcription: Germantown / Chelten in Germantown     intersection with [ABCD]
   and [VILLA]
+coordinates: "[-75.175044547054, 40.035837602373]"
 zipcode: '19118'
-outside_phl: 
+gen_neighborhood: Northwest Philadelphia
 neighborhood: Chestnut Hill
+outside_phl: 
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_24.jpg
+image_file_name: llg_24.jpg
 proposal_transcription: |-
   Walgreens
 
@@ -17,7 +19,7 @@ proposal_transcription: |-
   G-Town / CHELTEN
 
   Stripes of tie have names of monumental people
-topic: Business,Philadelphia,Uplifting
+topic: Business,Uplifting
 topic_summary: 0, 0, 0
 type: Sculpture Statue
 keywords_other: tie, list of names, Germantown, Chelten

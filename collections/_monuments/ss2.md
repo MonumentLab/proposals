@@ -1,14 +1,16 @@
 ---
-pid: SS2
+pid: ss2
 title: Friends Are Necessary
 location_transcription: 6th + Fairmount
+coordinates: 
 zipcode: '19123'
-outside_phl: 
+gen_neighborhood: North Philadelphia
 neighborhood: Northern Liberties,Loft District
+outside_phl: 
 age: '32'
 age_range: 30-39
 instagram: 
-image_file_name: SS_2.jpg
+image_file_name: ss_2.jpg
 proposal_transcription: 
 topic: Uplifting
 topic_summary: '0'

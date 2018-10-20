@@ -1,14 +1,16 @@
 ---
-pid: LLG81
+pid: llg81
 title: Dream Tree
 location_transcription: in any park in Germantown or Philly
+coordinates: "[-75.176900991934, 40.051730710816]"
 zipcode: '18966'
-outside_phl: 'Southampton PA '
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 'Southampton PA '
 age: '16'
 age_range: 13-19
 instagram: 
-image_file_name: LLG_81.jpg
+image_file_name: llg_81.jpg
 proposal_transcription: |-
   sculpted
 

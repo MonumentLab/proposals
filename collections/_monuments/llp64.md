@@ -1,16 +1,18 @@
 ---
-pid: LLP64
+pid: llp64
 title: The monument of Special and unique
 location_transcription: Art Muesuem
+coordinates: "[-75.180545757746, 39.96534587447]"
 zipcode: '19115'
-outside_phl: 
+gen_neighborhood: Northeast Philadelphia
 neighborhood: Bustleton,Somerton
+outside_phl: 
 age: '12'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_64.jpg
+image_file_name: llp_64.jpg
 proposal_transcription: A diamond monument.  The monument of special and unique
-topic: Art
+topic: 
 topic_summary: '0'
 type: Sculpture Statue
 keywords_other: art museum, pma

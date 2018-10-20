@@ -1,14 +1,16 @@
 ---
-pid: LLC1
+pid: llc1
 title: Suziecue
 location_transcription: 
+coordinates: "[-75.175976516185, 39.955791815713]"
 zipcode: 
-outside_phl: 
+gen_neighborhood: 
 neighborhood: 
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLC_1.jpg
+image_file_name: llc_1.jpg
 proposal_transcription: 
 topic: Inclusivity,Women
 topic_summary: 0, 0

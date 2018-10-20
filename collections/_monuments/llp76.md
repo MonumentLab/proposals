@@ -1,14 +1,16 @@
 ---
-pid: LLP76
+pid: llp76
 title: twisted lies
 location_transcription: washinton square
+coordinates: "[-75.152307461238, 39.947022720924]"
 zipcode: '19147'
-outside_phl: 
+gen_neighborhood: South Philadelphia
 neighborhood: Queen Village,Bella Vista,Pennsport,Italian Market
+outside_phl: 
 age: '11'
 age_range: 6-13
 instagram: 
-image_file_name: LLP_76.jpg
+image_file_name: llp_76.jpg
 proposal_transcription: 'Description:  the earth being twisted while covered in lies'
 topic: Politics,Social Justice,Freedom
 topic_summary: 0, 0, 0
