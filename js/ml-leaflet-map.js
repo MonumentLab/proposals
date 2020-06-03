@@ -117,14 +117,24 @@ $.getJSON('/js/facets.json', function(d){
 
     //------------------------------LAYERS--------------------------------------
     //streets layer
-    var key = 'pk.eyJ1IjoibmFiaWxrIiwiYSI6ImNqbGJvbzlpNjRoZG8zd3F0eTBnM21mcjQifQ.6yqwvqQlYvwGMG7FQPyJtA';
-    var tileLayer =  L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.high-contrast/{z}/{x}/{y}@2x.png?access_token=' + key,
+    var keyOld = 'pk.eyJ1IjoibmFiaWxrIiwiYSI6ImNqbGJvbzlpNjRoZG8zd3F0eTBnM21mcjQifQ.6yqwvqQlYvwGMG7FQPyJtA';
+    var key = 'pk.eyJ1IjoibmFiaWxrIiwiYSI6ImNrYXpscnkwaTBkODIycnA4MmJueGpvbmcifQ.rAKP-YJkiIE76iNv8NAUBw';
+    var mapboxClassicEndpoint = 'https://api.tiles.mapbox.com/v4/mapbox.high-contrast/{z}/{x}/{y}@2x.png?access_token=';
+
+    // 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}'
+    // https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}
+
+    var mapboxEndpoint = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
+    var tileLayer =  L.tileLayer( mapboxEndpoint,
         {
             attribution: '&copy; <a href="http://mapbox.com/attributions">Mapbox</a>',
-            subdomains: 'abc',
+            // subdomains: 'abc',
             maxZoom: 16,
             minZoom: 11,
-            // bounds: [[40.138,-75.28],[39.87,-74.948]]
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: key,
+            id: 'nabilk/ckazmcu8c0kjn1jnq2lqv6eo7'
         }).addTo(map);
 
     //neighborhoods layer

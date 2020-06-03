@@ -57,7 +57,7 @@ if (item.neighborhood){ meta += 'From ' + item.neighborhood.split(',')[0] + '. '
 meta += "</strong>";
 if (item.proposal_transcription){ meta += '<br/>' + item.proposal_transcription.slice(0,140) + '... ';}
 
-var result = '<div class="result"><a href="/monuments/' + item.pid.toLowerCase() + '"><img class="sq-thumb-sm" src="/assets/monuments/thumbs/' + item.image_file_name.toUpperCase().replace('JPG','jpg') + '"/>&nbsp;&nbsp;&nbsp;<p><span class="title">' + item.title + '.</span><br>' + meta + '</p></a></div>';
+var result = '<div class="result"><a href="/monuments/' + item.pid.toLowerCase() + '"><img class="sq-thumb-sm" src="/assets/monuments/thumbs/' + item.image_file_name.toLowerCase().replace('JPG','jpg') + '"/>&nbsp;&nbsp;&nbsp;<p><span class="title">' + item.title + '.</span><br>' + meta + '</p></a></div>';
 results_div.append(result);
 }
 
